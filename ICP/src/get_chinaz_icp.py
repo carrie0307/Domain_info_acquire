@@ -59,7 +59,7 @@ def get_icp_info():
             break
         if "<h2>404" in html:
             # eg. www.365bet.cd的查询结果
-            icp = '--'
+            icp = '获取icp异常'
             continue
         try:
             content = re.compile(r'<p><font>(.+?)</font>').findall(html)
