@@ -17,7 +17,7 @@ domain_q = Queue.Queue()
 html_q = Queue.Queue()
 icp_q = Queue.Queue()
 
-thread_num = 10
+thread_num = 1
 
 def get_domains():
     global collection
@@ -52,6 +52,7 @@ def download_htmlpage():
             html = pre_deal_html(resp) # 处理编码
             html_q.put([domain, html])
         except Exception, e:
+            icp_q.put([domain, '-1'])
             print str(e)
             print domain + "访问有误\n"
     print 'download over ...'
@@ -69,7 +70,7 @@ def get_page_icp():
     global icp_q
     while True:
         try:
-            domain,html = html_q.get(timeout=100)
+            domain,html = html_q.get()
         except Queue.Empty:
             print 'get icp info over ...'
             break
@@ -78,7 +79,7 @@ def get_page_icp():
             if pattern1 != []:
                 icp = pattern1[0]
             else:
-                pattern2 = re.compile(u'[\u4e00-\u9fa5]{0,1}ICP[\u8bc1].*[\d]{6,8}').findall(html)
+                pattern2 = re.compile(u'([\u4e00-\u9fa5]{0,1}ICP[\u8bc1].*[\d]{6,8})').findall(html)
                 if pattern2 != []:
                     icp = pattern2[0]
                 else:
@@ -100,7 +101,7 @@ def mongodb_save_icp():
     global collection
     while True:
         try:
-            domain,icp = icp_q.get(timeout=100)
+            domain,icp = icp_q.get()
         except Queue.Empty:
             print 'save over ... \n'
             break

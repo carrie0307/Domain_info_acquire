@@ -31,8 +31,13 @@ auth: 鲁ICP备06020633号-1 [反查]
 ------
 
 ## com
+#### 可访问
 * auth_icp 无， page_icp 无  1
 * auth_icp 无， page_icp 有  2
 * auth_icp 有， page_icp 无  3
 * auth_icp 有， page_icp 有 且相同 4
 * auth_icp 有， page_icp 有 且不同 5
+
+#### 不可访问
+* auth_icp 无 -1
+* auth_icp 有 -2
