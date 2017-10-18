@@ -44,13 +44,15 @@ def cmp_icp(domain_icp_list):
             # 将“沪ICP备09091848号-1”格式类型，全部转化为0909184
             # 读出的字符本身就算unicode，因此不必转换
             if u'ICP证' in item['auth_icp']:
-                auth_icp = re.compile(u'ICP[\u8bc1]([\d]+)').findall(item['auth_icp'])[0]
+                auth_icp = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u8bc1]([\d]+)').findall(item['auth_icp'])[0]
             else:
-                auth_icp = re.compile(u'[\u4e00-\u9fa5]{0,1}ICP[\u5907]([\d]+)[\u53f7]*-*[\d]*').findall(item['auth_icp'])[0]
+                auth_icp = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u5907]([\d]+)[\u53f7]*-*[\d]*').findall(item['auth_icp'])[0]
+            auth_icp = ''.join(list(auth_icp)) #形如港030577（省份 + 主编号）
             if u'ICP证' in item['page_icp']:
-                page_icp = re.compile(u'ICP[\u8bc1]([\d]+)').findall(item['page_icp'])[0]
+                page_icp = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u8bc1]([\d]+)').findall(item['page_icp'])[0]
             else:
-                page_icp = re.compile(u'[\u4e00-\u9fa5]{0,1}ICP[\u5907]([\d]+)[\u53f7]*-*[\d]*').findall(item['page_icp'])[0]
+                page_icp = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u5907]([\d]+)[\u53f7]*-*[\d]*').findall(item['page_icp'])[0]
+            page_icp = ''.join(list(page_icp)) #形如港030577（省份 + 主编号）
             if auth_icp == page_icp:
                 collection.update({'_id': item['_id']}, {'$set': {'cmp':4}})
             else:
