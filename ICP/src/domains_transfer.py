@@ -27,8 +27,8 @@ def transfer_domains(domains):
     :return: 域名列表
     """
     db = client.domain_icp_analysis
-    collection = db.domain_icp_info
-    domain_documents = [{'domain':domain, 'auth_icp':'', 'page_icp':'', 'cmp':0} for domain in domains]
+    collection = db.domain_icp_info2
+    domain_documents = [{'domain':domain, 'auth_icp':{'icp':'', 'exact_unique':0, 'vague_unique':0}, 'page_icp':{'icp':'', 'exact_unique':0, 'vague_unique':0}, 'cmp':0} for domain in domains]
     collection.insert_many(domain_documents)
     print 'insert over ... '
 

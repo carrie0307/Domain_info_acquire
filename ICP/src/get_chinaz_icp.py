@@ -10,7 +10,7 @@ import ip
 '''建立连接'''
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.domain_icp_info
+collection = db.domain_icp_info2
 
 domain_q = Queue.Queue()
 html_q = Queue.Queue()
@@ -21,7 +21,7 @@ thread_num = 10
 def get_domains():
     global collection
     global domain_q
-    res = collection.find({},{'domain': True, '_id':False })
+    res = collection.find({'auth_icp.icp':''},{'domain': True, '_id':False })
     for domain in list(res):
         domain_q.put(str(domain['domain']))
 
@@ -83,7 +83,7 @@ def mongodb_save_icp():
             print 'save over ... \n'
             break
         try:
-            collection.update({'domain': domain}, {'$set': {'auth_icp':icp}})
+            collection.update({'domain': domain}, {'$set': {'auth_icp.icp':icp}})
             print domain, icp
         except:
             print domain + "存储异常\n"

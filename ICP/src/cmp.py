@@ -1,20 +1,25 @@
 # coding=utf-8
 from pymongo import *
 import re
+import icp_num
 
 '''
 最终遗留的几个特殊格式，但未影响比较结果
-www.ihuaerjie.com ICP证 桂B2-20040022
+
 www.qipaishequ.com -- ICP证&nbsp;桂B2-20040022
-www.zqsjbzlk.com -- 京ICP证号京ICP备号京公网安备11010702000014
-www.ourloto.com -- ICP证 桂B2-20040022
 www.ihuaerjie.com -- ICP证&nbsp;桂B2-20040022
+
+
+www.zqsjbzlk.com -- 京ICP证号京ICP备号京公网安备11010702000014
 www.lzljluchun.com.cn -- ICP证：粤B2-20100355
+
+www.ihuaerjie.com ICP证 桂B2-20040022
+www.ourloto.com -- ICP证 桂B2-20040022
 '''
 
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.domain_icp_info
+collection = db.domain_icp_info2
 
 
 
@@ -29,30 +34,22 @@ def cmp_icp(domain_icp_list):
     global collection
     cmp_res = []
     for item in domain_icp_list:
-        if item['auth_icp'] == '--' and item['page_icp'] == '--':
+        if item['auth_icp']['icp'] == '--' and item['page_icp']['icp'] == '--':
             collection.update({'_id': item['_id']}, {'$set': {'cmp':1}})
-        elif item['auth_icp'] == '--' and item['page_icp'] != '--':
+        elif item['auth_icp']['icp'] == '--' and item['page_icp']['icp'] != '--':
             collection.update({'_id': item['_id']}, {'$set': {'cmp':2}})
-        elif item['auth_icp'] != '--' and item['page_icp'] == '--':
+        elif item['auth_icp']['icp'] != '--' and item['page_icp']['icp'] == '--':
             collection.update({'_id': item['_id']}, {'$set': {'cmp':3}})
-        elif item['auth_icp'] == '--' and item['page_icp'] == '-1':
+        elif item['auth_icp']['icp'] == '--' and item['page_icp']['icp'] == '-1':
             collection.update({'_id': item['_id']}, {'$set': {'cmp':-1}})
-        elif item['auth_icp'] != '--' and item['page_icp'] == '-1':
+        elif item['auth_icp']['icp'] != '--' and item['page_icp']['icp'] == '-1':
             collection.update({'_id': item['_id']}, {'$set': {'cmp':-2}})
         else:
             # 港ICP证030577号、港ICP证0188188 等转化为030577、0188188
             # 将“沪ICP备09091848号-1”格式类型，全部转化为0909184
             # 读出的字符本身就算unicode，因此不必转换
-            if u'ICP证' in item['auth_icp']:
-                auth_icp = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u8bc1]([\d]+)').findall(item['auth_icp'])[0]
-            else:
-                auth_icp = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u5907]([\d]+)[\u53f7]*-*[\d]*').findall(item['auth_icp'])[0]
-            auth_icp = ''.join(list(auth_icp)) #形如港030577（省份 + 主编号）
-            if u'ICP证' in item['page_icp']:
-                page_icp = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u8bc1]([\d]+)').findall(item['page_icp'])[0]
-            else:
-                page_icp = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u5907]([\d]+)[\u53f7]*-*[\d]*').findall(item['page_icp'])[0]
-            page_icp = ''.join(list(page_icp)) #形如港030577（省份 + 主编号）
+            auth_icp = icp_num.get_icp_num(item['auth_icp']['icp']) # #形如港030577（省份 + 主编号）
+            page_icp = icp_num.get_icp_num(item['page_icp']['icp']) # #形如港030577（省份 + 主编号）
             if auth_icp == page_icp:
                 collection.update({'_id': item['_id']}, {'$set': {'cmp':4}})
             else:
