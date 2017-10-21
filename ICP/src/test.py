@@ -5,12 +5,24 @@ from pymongo import *
 
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.domain_icp_info2
+collection = db.taiyuan_all_icp
 # collection.update({'domain': 'www.168168cc.com'}, {'$set': {'page_icp':{'icp':'', 'exact_unique':0, 'vague_unique':0}}})
-# res = collection.find({'page_icp.exact_unique':0},{'domain':True, 'page_icp':True})
-res = collection.distinct('auth_icp.icp')
+res = collection.find({'auth_icp.icp':{'$ne':'--'}},{'domain':True, 'auth_icp.icp':True})
+# res = collection.distinct('auth_icp.icp')
+province_dict = {}
 for item in res:
-    print item
+    if u'晋' not in item['auth_icp']['icp']:
+        try:
+            province = re.compile(u'([\u4e00-\u9fa5]{0,1})ICP[\u5907][\d]+[\u53f7]*-*[\d]*').findall(item['auth_icp']['icp'])[0]
+            province_dict[province] = province_dict.get(province, 0) + 1
+            # print province
+        except:
+            print '--'
+            print item['domain'],item['auth_icp']['icp']
+province_dict = sorted(province_dict.iteritems(),key = lambda asd:asd[1],reverse = True)
+print province_dict
+for key in province_dict:
+    print key[0], key[1]
 
 # for item in res:
     # if item['page_icp']['icp'] != '--' and item['page_icp']['icp'] != '-1' and item['page_icp']['exact_unique'] == 0:

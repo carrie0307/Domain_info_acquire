@@ -1,5 +1,8 @@
 # coding=utf-8
 import re
+'''
+    功能： icp格式转化函数
+'''
 
 
 def get_icp_num(icp):
@@ -14,5 +17,6 @@ def get_icp_num(icp):
         icp = ''.join(list(icp_num[0])) #形如港030577（省份 + 主编号）
         return icp
     else:
+        # 主要是诸如 粤B2-20090059-111 与 cmp.py中列举出的几个特例
         return icp #提取失败的，返回原icp
         # page_icp_dict[page_icp] = page_icp_dict.get(page_icp, 0) + 1

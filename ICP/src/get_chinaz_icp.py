@@ -1,4 +1,9 @@
 # coding=utf-8
+'''
+    功能： 从站长之家获取ICP备案信息的权威结果
+
+    注意： 运行时修改'collection = db.taiyuan_part_icp' 选择不同表中的域名获取
+'''
 import requests
 import re
 from pymongo import *
@@ -6,19 +11,27 @@ import time
 import Queue
 import threading
 import ip
+from log import *
+
 
 '''建立连接'''
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.domain_icp_info2
+collection = db.taiyuan_part_icp
 
+'''同步队列'''
 domain_q = Queue.Queue()
 html_q = Queue.Queue()
 icp_q = Queue.Queue()
 
+'''线程数量'''
 thread_num = 10
 
+
 def get_domains():
+    '''
+    功能:从数据库中读取未获取权威icp信息的域名，添加入域名队列
+    '''
     global collection
     global domain_q
     res = collection.find({'auth_icp.icp':''},{'domain': True, '_id':False })
@@ -27,6 +40,9 @@ def get_domains():
 
 
 def get_raw_html():
+    '''
+    功能： 从站长之家获取包含域名icp信息的原始页面（注意由于被ban的问题，添加了获取代理），将html页面添加入队列
+    '''
     global domain_q
     global html_q
     proxy = ip.available_IP_q.get() # 获取一个代理
@@ -42,12 +58,16 @@ def get_raw_html():
                 proxy = ip.available_IP_q.get()
             else:
                 print str(e) + '===\n'
+                logger.info("站长之家icp：获取html异常" + domain + '  ' + str(e) + '\n')
                 print domain + "获取html异常"
                 continue
     print 'domain queue is empty ...'
 
 
 def get_icp_info():
+    '''
+    功能： 从html页面中提取icp信息，添加入icp队列
+    '''
     global collection
     global html_q
     global icp_q
@@ -58,8 +78,8 @@ def get_icp_info():
             print 'get icp info over ...'
             break
         if "<h2>404" in html:
-            # eg. www.365bet.cd的查询结果
-            icp = '获取icp异常'
+            #获取icp异常 eg. www.365bet.cd的查询结果
+            icp = '--'
             continue
         try:
             content = re.compile(r'<p><font>(.+?)</font>').findall(html)
@@ -70,10 +90,14 @@ def get_icp_info():
                 icp = '--'
             icp_q.put([domain, icp])
         except:
+            logger.info("站长之家icp：html中提取icp异常" + domain + '  ' + '\n')
             print domain + "获取icp异常"
 
 
 def mongodb_save_icp():
+    '''
+    功能：在mongo数据库中存储icp结果
+    '''
     global icp_q
     global collection
     while True:
@@ -86,6 +110,7 @@ def mongodb_save_icp():
             collection.update({'domain': domain}, {'$set': {'auth_icp.icp':icp}})
             print domain, icp
         except:
+            logger.info("站长之家icp：存储异常" + domain + '  ' + '\n')
             print domain + "存储异常\n"
 
 

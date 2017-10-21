@@ -1,4 +1,10 @@
 # coding=utf-8
+'''
+    功能： 站长之家所得icp与页面所得icp的一致性比对
+
+    注意： 运行时修改'collection = db.taiyuan_part_icp' 选择不同表中的域名获取
+
+'''
 from pymongo import *
 import re
 import icp_num
@@ -17,13 +23,16 @@ www.ihuaerjie.com ICP证 桂B2-20040022
 www.ourloto.com -- ICP证 桂B2-20040022
 '''
 
+
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.domain_icp_info2
-
+collection = db.taiyuan_part_icp
 
 
 def get_domain_icp():
+    '''
+    功能： 从数据库读取页面和权威的icp信息
+    '''
     global collection
     global domain_q
     res = collection.find({'cmp':0},{'auth_icp':True, 'page_icp':True })
@@ -31,6 +40,9 @@ def get_domain_icp():
 
 
 def cmp_icp(domain_icp_list):
+    '''
+    功能： auth_icp.icp 与 page_icp.icp 的比对
+    '''
     global collection
     cmp_res = []
     for item in domain_icp_list:
@@ -45,8 +57,8 @@ def cmp_icp(domain_icp_list):
         elif item['auth_icp']['icp'] != '--' and item['page_icp']['icp'] == '-1':
             collection.update({'_id': item['_id']}, {'$set': {'cmp':-2}})
         else:
-            # 港ICP证030577号、港ICP证0188188 等转化为030577、0188188
-            # 将“沪ICP备09091848号-1”格式类型，全部转化为0909184
+            # 港ICP证030577号、港ICP证0188188 等转化为港030577、港0188188
+            # 将“沪ICP备09091848号-1”格式类型，全部转化为沪0909184
             # 读出的字符本身就算unicode，因此不必转换
             auth_icp = icp_num.get_icp_num(item['auth_icp']['icp']) # #形如港030577（省份 + 主编号）
             page_icp = icp_num.get_icp_num(item['page_icp']['icp']) # #形如港030577（省份 + 主编号）

@@ -1,4 +1,9 @@
 # coding=utf-8
+'''
+    功能： 从页面上获取icp信息
+
+    注意： 运行时修改'collection = db.taiyuan_part_icp' 选择不同表中的域名获取
+'''
 import requests
 import re
 import urllib2
@@ -8,26 +13,39 @@ import StringIO
 from pymongo import *
 import threading
 import time
+from log import *
 
+'''建立链接'''
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.domain_icp_info2
+collection = db.taiyuan_part_icp
 
+'''同步队列'''
 domain_q = Queue.Queue()
 html_q = Queue.Queue()
 icp_q = Queue.Queue()
 
+
+'''线程数量'''
 thread_num = 20
 
+
 def get_domains():
+    '''
+    功能：从数据库读取未获取页面icp信息的域名
+    '''
     global collection
     global domain_q
     res = collection.find({'page_icp.icp':''},{'domain': True, '_id':False })
     for domain in list(res):
         domain_q.put(str(domain['domain']))
 
+
 # urllib2获取响应可能存在压缩包问题，在此处理；同时处理编码问题
 def pre_deal_html(req):
+    '''
+    功能：urllib2获取响应可能存在压缩包问题，在此处理；同时处理编码问题
+    '''
     info = req.info()
     content = req.read()
     encoding = info.getheader('Content-Encoding')
@@ -40,7 +58,13 @@ def pre_deal_html(req):
         content = content.decode(charset, 'ignore')
     return content
 
+
 def download_htmlpage():
+    '''
+    功能：获取网页源代码，添加入html队列
+
+    注： 页面无法访问的，置icp信息为-1
+    '''
     global domain_q
     global html_q
     global icp_q
@@ -54,17 +78,18 @@ def download_htmlpage():
         except Exception, e:
             icp_q.put([domain, '-1'])
             print str(e)
+            logger.info("页面icp：获取html异常" + domain + '  ' + str(e) + '\n')
             print domain + "访问有误\n"
     print 'download over ...'
 
 
 def get_page_icp():
     '''
-    获取页面上的icp信息，分三种情况进行处理：
-    pattern1: 备案：粤ICP备11007122号-2 (500.com)
-    pattern2: 京ICP证 030247号 (icbc)
-    pattern2: 京ICP证000007 (sina)
-    pattern3: 粤B2-20090059-111 (qq.com)
+    功能：获取页面上的icp信息，分三种情况进行处理：
+        pattern1: 备案：粤ICP备11007122号-2 (500.com)
+        pattern2: 京ICP证 030247号 (icbc)
+        pattern2: 京ICP证000007 (sina)
+        pattern3: 粤B2-20090059-111 (qq.com) （目前的代码只处理pattern1 和 两个 pattern2,pattern3较少且和”营业号“类似，暂删除）
     '''
     global html_q
     global icp_q
@@ -93,6 +118,7 @@ def get_page_icp():
                 #         icp = '--'
             icp_q.put([domain, icp])
         except:
+            logger.info("页面icp:从html提取icp异常" + domain + '  ' +'\n')
             print domain + "get icp WRONG\n"
 
 
@@ -109,6 +135,7 @@ def mongodb_save_icp():
             collection.update({'domain': domain}, {'$set': {'page_icp.icp':icp}})
             print 'saved: ' + domain + '  ' + icp
         except:
+            logger.info("页面icp:存储异常" + domain + '  ' + '\n')
             print domain + "存储异常\n"
 
 

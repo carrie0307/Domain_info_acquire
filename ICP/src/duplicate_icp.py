@@ -1,4 +1,7 @@
 # coding=utf-8
+'''
+    icp信息查重
+'''
 from pymongo import *
 import icp_num
 import re
@@ -6,10 +9,13 @@ import re
 
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.domain_icp_info2
+collection = db.taiyuan_part_icp
 
 
 def get_icps():
+    '''
+    功能： 获取icp信息
+    '''
     global collection
     global domain_q
     res = collection.find({},{'auth_icp':True, 'page_icp':True })
@@ -30,21 +36,13 @@ def exact_cmp(icp_res):
     auth_icp_dict['--'] = -1
     page_icp_dict['--'] = -1
     page_icp_dict['-1'] = -1
-    print page_icp_dict[u'苏ICP备13052275号-5']
-    updage_res('auth_icp', 'exact_unique', auth_icp_dict)
-    updage_res('page_icp', 'exact_unique', page_icp_dict)
-    # for icp in auth_icp_dict:
-    #     if auth_icp_dict[icp] > 1:
-    #         print icp, auth_icp_dict[icp]
-    # print '\n==================================\n'
-    # for icp in page_icp_dict:
-    #     if page_icp_dict[icp] > 1:
-    #         print icp, page_icp_dict[icp]
+    update_res('auth_icp', 'exact_unique', auth_icp_dict)
+    update_res('page_icp', 'exact_unique', page_icp_dict)
 
 
 def vague_cmp(icp_res):
     '''
-    模糊比对，只比对icp主体的号码
+    模糊比对，只比对icp的省份和主体的号码（例如， 粤ICP备11007122号-2 转化为 粤11007122
     '''
     auth_icp_dict = {}
     page_icp_dict = {}
@@ -58,19 +56,13 @@ def vague_cmp(icp_res):
     auth_icp_dict['--'] = -1
     page_icp_dict['--'] = -1
     page_icp_dict['-1'] = -1
-    updage_res('auth_icp', 'vague_unique', auth_icp_dict)
-    updage_res('page_icp', 'vague_unique', page_icp_dict)
-    # for icp in auth_icp_dict:
-    #     if auth_icp_dict[icp] > 1:
-    #         print icp, auth_icp_dict[icp]
-    # print '\n==================================\n'
-    # for icp in page_icp_dict:
-    #     if page_icp_dict[icp] > 1:
-    #         print icp, page_icp_dict[icp]
+    update_res('auth_icp', 'vague_unique', auth_icp_dict)
+    update_res('page_icp', 'vague_unique', page_icp_dict)
 
 
-def updage_res(icp_type, unique_type, unique_res):
+def update_res(icp_type, unique_type, unique_res):
     '''
+    功能： 更新查重结果
     param: icp_type: auth_icp / page_icp
     param: uniqye_type: exact_unique / vague_unique
     param: unique_res: 数量统计结果的字典{icp:num} / {icp_num: num}
@@ -91,7 +83,7 @@ def updage_res(icp_type, unique_type, unique_res):
 
 
 if __name__ == '__main__':
-    # updage_res('auth_icp', 'exact_unique',{})
+    # update_res('auth_icp', 'exact_unique',{})
     icp_res = get_icps()
-    vague_cmp(icp_res)
-    # exact_cmp(icp_res)
+    # vague_cmp(icp_res)
+    exact_cmp(icp_res)

@@ -13,7 +13,7 @@ def get_ip_domains():
     :return: 域名列表
     """
     db = client.eds_last
-    collection = db.domain_ip_cname1
+    collection = db.taiyuan_all_icp
     # 通过find的第二个参数来指定返回的键
     res = collection.find({},{'domain': True, '_id':False })
     domains = [str(domain['domain']) for domain in list(res)]
@@ -27,15 +27,24 @@ def transfer_domains(domains):
     :return: 域名列表
     """
     db = client.domain_icp_analysis
-    collection = db.domain_icp_info2
+    collection = db.taiyuan_part_icp
     domain_documents = [{'domain':domain, 'auth_icp':{'icp':'', 'exact_unique':0, 'vague_unique':0}, 'page_icp':{'icp':'', 'exact_unique':0, 'vague_unique':0}, 'cmp':0} for domain in domains]
     collection.insert_many(domain_documents)
     print 'insert over ... '
+
+
+def strip_fun(string):
+    return string.strip()
 
 
 
 
 
 if __name__ == '__main__':
-    domains = get_ip_domains()
+    # domains = get_ip_domains()
+    r_file = open('taiyuan_part.txt', 'r')
+    domains = []
+    content = r_file.read()
+    domains = map(strip_fun,content.split('\n'))
+    r_file.close()
     transfer_domains(domains)
