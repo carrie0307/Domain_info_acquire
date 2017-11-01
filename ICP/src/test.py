@@ -2,7 +2,7 @@
 import requests
 import re
 from pymongo import *
-
+'''
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
 collection = db.taiyuan_all_icp
@@ -23,15 +23,18 @@ province_dict = sorted(province_dict.iteritems(),key = lambda asd:asd[1],reverse
 print province_dict
 for key in province_dict:
     print key[0], key[1]
+'''
 
 # for item in res:
     # if item['page_icp']['icp'] != '--' and item['page_icp']['icp'] != '-1' and item['page_icp']['exact_unique'] == 0:
      #    print item['domain'], item['page_icp']['icp']
-
 '''
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.domain_icp_info
+collection = db.domain_icp_info3
+collection.update({'page_icp.icp':{'$ne':''}, 'page_icp.exact_unique':{'$ne':0}, 'page_icp.vague_unique':{'$ne':0}}, {'$set': {'page_icp':{'icp':'', 'exact_unique':0, 'vague_unique':0}}},multi=True)
+'''
+'''
 res = collection.find({'page_icp':{'$ne':''}},{'page_icp':True, 'auth_icp':True, 'domain':True, '_id':False})
 for item in list(res):
     # if item['page_icp'] != '--' and item['page_icp'] != '-1':
@@ -67,3 +70,10 @@ if icp1 == icp2:
 # else:
 #     page_icp = re.compile(u'[\u4e00-\u9fa5]{0,1}ICP[\u5907]([\d]+)[\u53f7]*-*[\d]*').findall(item['page_icp'])[0]
 '''
+
+
+pattern3 = re.compile(u'([\u4e00-\u9fa5]{0,1}[A-B][1-2]-[\d]{6,8}-*[\d]*)').findall(u'ICP证&nbsp;桂B2-20040022')
+print pattern3[0]
+#
+pattern3 = re.compile(u'([\u4e00-\u9fa5]{0,1})[A-B][1-2]-([\d]{6,8})-*[\d]*').findall(u'ICP证&nbsp;桂B2-20040022')
+print pattern3[0][0] + pattern3[0][1]

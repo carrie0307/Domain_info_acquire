@@ -18,7 +18,7 @@ from log import *
 '''建立链接'''
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.taiyuan_part_icp
+collection = db.domain_icp_info3
 
 '''同步队列'''
 domain_q = Queue.Queue()
@@ -38,7 +38,8 @@ def get_domains():
     global domain_q
     res = collection.find({'page_icp.icp':''},{'domain': True, '_id':False })
     for domain in list(res):
-        domain_q.put(str(domain['domain']))
+        print domain['domain']
+        domain_q.put(str(domain[domain.keys()[0]]))
 
 
 # urllib2获取响应可能存在压缩包问题，在此处理；同时处理编码问题
@@ -89,7 +90,7 @@ def get_page_icp():
         pattern1: 备案：粤ICP备11007122号-2 (500.com)
         pattern2: 京ICP证 030247号 (icbc)
         pattern2: 京ICP证000007 (sina)
-        pattern3: 粤B2-20090059-111 (qq.com) （目前的代码只处理pattern1 和 两个 pattern2,pattern3较少且和”营业号“类似，暂删除）
+        pattern3: 粤B2-20090059-111 (qq.com) （增值营业号）
     '''
     global html_q
     global icp_q
@@ -107,15 +108,13 @@ def get_page_icp():
                 pattern2 = re.compile(u'([\u4e00-\u9fa5]{0,1}ICP[\u8bc1].*[\d]{6,8})').findall(html)
                 if pattern2 != []:
                     icp = pattern2[0]
+                # 增值业务营业号
                 else:
-                    icp = '--'
-                # 这种方法提取后错误太多
-                # else:
-                #     pattern3 = re.compile(r'([\u4e00-\u9fa5]\w{1}[\d]*-[\d]{6,8}-*[\d]*)').findall(html)
-                #     if pattern3 != []:
-                #         icp = pattern3[0]
-                #     else:
-                #         icp = '--'
+                    pattern3 = re.compile(u'([\u4e00-\u9fa5]{0,1}[A-B][1-2]-[\d]{6,8}-*[\d]*)').findall(html)
+                    if pattern3 != []:
+                        icp = pattern3[0]
+                    else:
+                        icp = '--'
             icp_q.put([domain, icp])
         except:
             logger.info("页面icp:从html提取icp异常" + domain + '  ' +'\n')

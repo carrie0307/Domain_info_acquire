@@ -1,0 +1,1406 @@
+2017-10-28 16:10:10,898 - mylogger - INFO - 获取ns异常： www.168168cc.com  Timeout
+
+2017-10-28 16:10:23,370 - mylogger - INFO - 获取ns异常： www.ty7777.net  Timeout
+
+2017-10-28 16:11:07,523 - mylogger - INFO - 获取ns异常： www.ty7777.net  Timeout
+
+2017-10-28 16:11:17,836 - mylogger - INFO - 获取ns异常： www.555198.com  Timeout
+
+2017-10-28 16:11:29,354 - mylogger - INFO - 获取ns异常： 268066.com  Timeout
+
+2017-10-28 16:12:49,644 - mylogger - INFO - 获取ns异常： www.ty7777.net  Timeout
+
+2017-10-28 16:13:04,700 - mylogger - INFO - 获取ns异常： 767588.com  Timeout
+
+2017-10-28 16:14:16,675 - mylogger - INFO - 获取ns异常： 23449.com  Timeout
+
+2017-10-28 16:15:16,535 - mylogger - INFO - 获取ns异常： www.k12388.com  Timeout
+
+2017-10-28 16:15:27,206 - mylogger - INFO - 获取ns异常： www.011818.com  Timeout
+
+2017-10-28 16:16:24,336 - mylogger - INFO - 获取ns异常： 130066.com  Timeout
+
+2017-10-28 16:16:24,338 - mylogger - INFO - 获取ns异常： www.130066.com  list index out of range
+
+2017-10-28 16:16:36,844 - mylogger - INFO - 获取ns异常： www.706688.net  Timeout
+
+2017-10-28 16:16:52,309 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-28 16:16:52,310 - mylogger - INFO - 获取ns异常： www.628899.com  list index out of range
+
+2017-10-28 16:17:02,327 - mylogger - INFO - 获取ns异常： 193333.com  Timeout
+
+2017-10-28 16:17:02,328 - mylogger - INFO - 获取ns异常： www.193333.com  list index out of range
+
+2017-10-28 16:17:13,092 - mylogger - INFO - 获取ns异常： www.tt511.com  Timeout
+
+2017-10-28 16:17:23,482 - mylogger - INFO - 获取ns异常： 858822.com  Timeout
+
+2017-10-28 16:17:23,485 - mylogger - INFO - 获取ns异常： www.858822.com  list index out of range
+
+2017-10-28 16:17:34,874 - mylogger - INFO - 获取ns异常： www.01963.com  Timeout
+
+2017-10-28 16:17:48,073 - mylogger - INFO - 获取ns异常： 50373.com  Timeout
+
+2017-10-28 16:17:48,074 - mylogger - INFO - 获取ns异常： www.50373.com  list index out of range
+
+2017-10-28 16:18:00,338 - mylogger - INFO - 获取ns异常： www.224949.com  Timeout
+
+2017-10-28 16:18:11,319 - mylogger - INFO - 获取ns异常： www.hp71.com  Timeout
+
+2017-10-28 16:18:21,562 - mylogger - INFO - 获取ns异常： www.00481.com  Timeout
+
+2017-10-28 16:18:33,453 - mylogger - INFO - 获取ns异常： www.63260.com  Timeout
+
+2017-10-28 16:18:44,977 - mylogger - INFO - 获取ns异常： www.456189.com  Timeout
+
+2017-10-28 16:18:56,786 - mylogger - INFO - 获取ns异常： 880022.com  Timeout
+
+2017-10-28 16:18:56,788 - mylogger - INFO - 获取ns异常： www.880022.com  list index out of range
+
+2017-10-28 16:19:09,282 - mylogger - INFO - 获取ns异常： www.tx522.com  Timeout
+
+2017-10-28 16:19:19,298 - mylogger - INFO - 获取ns异常： 003636.com  Timeout
+
+2017-10-28 16:19:19,300 - mylogger - INFO - 获取ns异常： www.003636.com  list index out of range
+
+2017-10-28 16:19:29,519 - mylogger - INFO - 获取ns异常： 2388.me  Timeout
+
+2017-10-28 16:19:29,520 - mylogger - INFO - 获取ns异常： www.2388.me  list index out of range
+
+2017-10-28 16:19:39,775 - mylogger - INFO - 获取ns异常： www.pps2345.com  Timeout
+
+2017-10-28 16:19:51,685 - mylogger - INFO - 获取ns异常： www.5189.net  Timeout
+
+2017-10-28 16:20:02,307 - mylogger - INFO - 获取ns异常： www.ty00.net  Timeout
+
+2017-10-28 16:20:12,631 - mylogger - INFO - 获取ns异常： www.321786.com  Timeout
+
+2017-10-28 16:20:22,698 - mylogger - INFO - 获取ns异常： www.321329.com  Timeout
+
+2017-10-28 16:20:35,477 - mylogger - INFO - 获取ns异常： www.5118.in  Timeout
+
+2017-10-28 16:20:46,260 - mylogger - INFO - 获取ns异常： www.987553.com  Timeout
+
+2017-10-28 16:20:56,418 - mylogger - INFO - 获取ns异常： www.64224.com  Timeout
+
+2017-10-28 16:21:06,653 - mylogger - INFO - 获取ns异常： www.pc5678.com  Timeout
+
+2017-10-28 16:21:18,216 - mylogger - INFO - 获取ns异常： 360safedns.com  Timeout
+
+2017-10-28 16:21:18,218 - mylogger - INFO - 获取ns异常： f2a6e7f4c1901e0b.360safedns.com  list index out of range
+
+2017-10-28 16:21:28,995 - mylogger - INFO - 获取ns异常： www.876722.com  Timeout
+
+2017-10-28 16:21:42,828 - mylogger - INFO - 获取ns异常： www.001219.com  Timeout
+
+2017-10-28 16:21:55,745 - mylogger - INFO - 获取ns异常： 78z5.com  Timeout
+
+2017-10-28 16:21:55,745 - mylogger - INFO - 获取ns异常： www.78z5.com  list index out of range
+
+2017-10-28 16:22:07,099 - mylogger - INFO - 获取ns异常： www.662609.com  Timeout
+
+2017-10-28 16:22:18,503 - mylogger - INFO - 获取ns异常： com.9090tu.com  Timeout
+
+2017-10-28 16:22:18,504 - mylogger - INFO - 获取ns异常： 88kjz.com.9090tu.com  list index out of range
+
+2017-10-28 16:22:28,753 - mylogger - INFO - 获取ns异常： www.kj2469.com  Timeout
+
+2017-10-28 16:22:38,769 - mylogger - INFO - 获取ns异常： 3959d.com  Timeout
+
+2017-10-28 16:22:38,769 - mylogger - INFO - 获取ns异常： www.3959d.com  list index out of range
+
+2017-10-28 16:22:48,784 - mylogger - INFO - 获取ns异常： 93818a.com  Timeout
+
+2017-10-28 16:22:48,785 - mylogger - INFO - 获取ns异常： www.93818a.com  list index out of range
+
+2017-10-28 16:23:00,453 - mylogger - INFO - 获取ns异常： www.300tk.com  Timeout
+
+2017-10-28 16:23:10,817 - mylogger - INFO - 获取ns异常： www.2688777.com  Timeout
+
+2017-10-28 16:23:22,484 - mylogger - INFO - 获取ns异常： tt6001.com  Timeout
+
+2017-10-28 16:23:22,487 - mylogger - INFO - 获取ns异常： www.tt6001.com  list index out of range
+
+2017-10-28 16:23:33,102 - mylogger - INFO - 获取ns异常： www.528668.com  Timeout
+
+2017-10-28 16:23:43,273 - mylogger - INFO - 获取ns异常： www.520383.com  Timeout
+
+2017-10-28 16:23:53,895 - mylogger - INFO - 获取ns异常： 411448.com  Timeout
+
+2017-10-28 16:23:53,898 - mylogger - INFO - 获取ns异常： www.411448.com  list index out of range
+
+2017-10-28 16:24:03,908 - mylogger - INFO - 获取ns异常： 80711.com  Timeout
+
+2017-10-28 16:24:03,913 - mylogger - INFO - 获取ns异常： www.80711.com  list index out of range
+
+2017-10-28 16:24:14,723 - mylogger - INFO - 获取ns异常： 872873.com  Timeout
+
+2017-10-28 16:24:14,724 - mylogger - INFO - 获取ns异常： www.872873.com  list index out of range
+
+2017-10-28 16:24:25,191 - mylogger - INFO - 获取ns异常： www.234338.com  Timeout
+
+2017-10-28 16:24:35,528 - mylogger - INFO - 获取ns异常： www.dg533.com  Timeout
+
+2017-10-28 16:24:46,692 - mylogger - INFO - 获取ns异常： www.604889.com  [Errno -5] No address associated with hostname
+
+2017-10-28 16:25:01,429 - mylogger - INFO - 获取ns异常： www.2841.com  [Errno -5] No address associated with hostname
+
+2017-10-28 16:25:14,150 - mylogger - INFO - 获取ns异常： www.123zb.com  Timeout
+
+2017-10-28 16:25:24,923 - mylogger - INFO - 获取ns异常： haoqiang1688.com  Timeout
+
+2017-10-28 16:25:24,924 - mylogger - INFO - 获取ns异常： www.haoqiang1688.com  list index out of range
+
+2017-10-28 16:25:35,509 - mylogger - INFO - 获取ns异常： www.lxtzcy.com  Timeout
+
+2017-10-28 16:25:45,521 - mylogger - INFO - 获取ns异常： tdnlslj.com  Timeout
+
+2017-10-28 16:25:45,522 - mylogger - INFO - 获取ns异常： www.tdnlslj.com  list index out of range
+
+2017-10-28 16:25:55,752 - mylogger - INFO - 获取ns异常： tianyi80.com  Timeout
+
+2017-10-28 16:25:55,753 - mylogger - INFO - 获取ns异常： www.tianyi80.com  list index out of range
+
+2017-10-28 16:26:06,221 - mylogger - INFO - 获取ns异常： 51698690.com  Timeout
+
+2017-10-28 16:26:06,223 - mylogger - INFO - 获取ns异常： www.51698690.com  list index out of range
+
+2017-10-28 16:26:17,195 - mylogger - INFO - 获取ns异常： www.gzuedp.com  Timeout
+
+2017-10-28 16:26:27,356 - mylogger - INFO - 获取ns异常： www.ai5573.com  Timeout
+
+2017-10-28 16:26:37,672 - mylogger - INFO - 获取ns异常： xhswj.com  Timeout
+
+2017-10-28 16:26:37,673 - mylogger - INFO - 获取ns异常： www.xhswj.com  list index out of range
+
+2017-10-28 16:26:47,690 - mylogger - INFO - 获取ns异常： xianjuhotel.com  Timeout
+
+2017-10-28 16:26:47,692 - mylogger - INFO - 获取ns异常： www.xianjuhotel.com  list index out of range
+
+2017-10-28 16:26:59,361 - mylogger - INFO - 获取ns异常： gvhhb.com  Timeout
+
+2017-10-28 16:26:59,362 - mylogger - INFO - 获取ns异常： www.gvhhb.com  list index out of range
+
+2017-10-28 16:27:09,377 - mylogger - INFO - 获取ns异常： 020mdh.com  Timeout
+
+2017-10-28 16:27:09,383 - mylogger - INFO - 获取ns异常： www.020mdh.com  list index out of range
+
+2017-10-28 16:27:22,607 - mylogger - INFO - 获取ns异常： 02484.com  Timeout
+
+2017-10-28 16:27:22,607 - mylogger - INFO - 获取ns异常： www.02484.com  list index out of range
+
+2017-10-28 16:27:32,623 - mylogger - INFO - 获取ns异常： hg410.com  Timeout
+
+2017-10-28 16:27:32,627 - mylogger - INFO - 获取ns异常： www.hg410.com  list index out of range
+
+2017-10-28 16:27:43,616 - mylogger - INFO - 获取ns异常： www.0745a.com  Timeout
+
+2017-10-28 16:27:54,315 - mylogger - INFO - 获取ns异常： www.csqhyy.com  Timeout
+
+2017-10-28 16:28:04,874 - mylogger - INFO - 获取ns异常： www.dl-brand.com  Timeout
+
+2017-10-28 16:28:15,041 - mylogger - INFO - 获取ns异常： www.gjpczx.com  Timeout
+
+2017-10-28 16:28:27,212 - mylogger - INFO - 获取ns异常： www.bifsi.com  Timeout
+
+2017-10-28 16:28:37,956 - mylogger - INFO - 获取ns异常： www.qdplan.com  Timeout
+
+2017-10-28 16:28:48,571 - mylogger - INFO - 获取ns异常： www.ootoys.com  Timeout
+
+2017-10-28 16:28:58,904 - mylogger - INFO - 获取ns异常： www.zuoyz.com  Timeout
+
+2017-10-28 16:29:08,922 - mylogger - INFO - 获取ns异常： ku233.com  Timeout
+
+2017-10-28 16:29:08,922 - mylogger - INFO - 获取ns异常： www.ku233.com  list index out of range
+
+2017-10-28 16:29:19,875 - mylogger - INFO - 获取ns异常： www.cdpengli.com  Timeout
+
+2017-10-28 16:29:30,098 - mylogger - INFO - 获取ns异常： bjszjj.com  Timeout
+
+2017-10-28 16:29:30,100 - mylogger - INFO - 获取ns异常： www.bjszjj.com  list index out of range
+
+2017-10-28 16:29:40,111 - mylogger - INFO - 获取ns异常： dazhoulh.com  Timeout
+
+2017-10-28 16:29:40,111 - mylogger - INFO - 获取ns异常： www.dazhoulh.com  list index out of range
+
+2017-10-28 16:29:45,705 - mylogger - INFO - 获取ns异常： xulhuoe.x.incapdns.net  object of type 'NoneType' has no len()
+
+2017-10-28 16:29:55,721 - mylogger - INFO - 获取ns异常： lehubbs.com  Timeout
+
+2017-10-28 16:29:55,722 - mylogger - INFO - 获取ns异常： www.lehubbs.com  list index out of range
+
+2017-10-28 16:29:56,204 - mylogger - INFO - 获取ns异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-28 16:30:08,503 - mylogger - INFO - 获取ns异常： 13878.com  Timeout
+
+2017-10-28 16:30:08,504 - mylogger - INFO - 获取ns异常： www.13878.com  list index out of range
+
+2017-10-28 16:30:22,108 - mylogger - INFO - 获取ns异常： www.188338.com  [Errno -5] No address associated with hostname
+
+2017-10-28 16:30:24,649 - mylogger - INFO - 获取ns异常： www.120male.com  object of type 'NoneType' has no len()
+
+2017-10-28 16:42:57,845 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-28 16:42:57,848 - mylogger - INFO - 获取ns异常： www.628899.com  list index out of range
+
+2017-10-28 16:43:09,245 - mylogger - INFO - 获取ns异常： www.tt511.com  Timeout
+
+2017-10-28 16:43:20,825 - mylogger - INFO - 获取ns异常： 224949.com  Timeout
+
+2017-10-28 16:43:20,828 - mylogger - INFO - 获取ns异常： www.224949.com  list index out of range
+
+2017-10-28 16:43:31,453 - mylogger - INFO - 获取ns异常： www.qiqizhong.com  Timeout
+
+2017-10-28 16:43:42,830 - mylogger - INFO - 获取ns异常： www.63260.com  Timeout
+
+2017-10-28 16:43:53,822 - mylogger - INFO - 获取ns异常： www.tx522.com  Timeout
+
+2017-10-28 16:44:04,782 - mylogger - INFO - 获取ns异常： www.2388.me  Timeout
+
+2017-10-28 16:44:16,631 - mylogger - INFO - 获取ns异常： 321786.com  Timeout
+
+2017-10-28 16:44:16,633 - mylogger - INFO - 获取ns异常： www.321786.com  list index out of range
+
+2017-10-28 16:44:27,897 - mylogger - INFO - 获取ns异常： www.5118.in  Timeout
+
+2017-10-28 16:44:38,133 - mylogger - INFO - 获取ns异常： www.987553.com  Timeout
+
+2017-10-28 16:44:49,193 - mylogger - INFO - 获取ns异常： www.876722.com  Timeout
+
+2017-10-28 16:45:01,300 - mylogger - INFO - 获取ns异常： 3959d.com  Timeout
+
+2017-10-28 16:45:11,542 - mylogger - INFO - 获取ns异常： www.93818a.com  Timeout
+
+2017-10-28 16:45:22,153 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-28 16:45:22,153 - mylogger - INFO - 获取ns异常： 300tk.com.9090tu.com  list index out of range
+
+2017-10-28 16:45:32,403 - mylogger - INFO - 获取ns异常： www.2688777.com  Timeout
+
+2017-10-28 16:45:43,351 - mylogger - INFO - 获取ns异常： www.520383.com  Timeout
+
+2017-10-28 16:45:54,239 - mylogger - INFO - 获取ns异常： 872873.com  Timeout
+
+2017-10-28 16:45:54,240 - mylogger - INFO - 获取ns异常： www.872873.com  list index out of range
+
+2017-10-28 16:46:59,465 - mylogger - INFO - 获取ns异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-28 16:47:12,728 - mylogger - INFO - 获取ns异常： www.tt511.com  Timeout
+
+2017-10-28 16:47:26,472 - mylogger - INFO - 获取ns异常： 224949.com  Timeout
+
+2017-10-28 16:47:43,332 - mylogger - INFO - 获取ns异常： www.63260.com  Timeout
+
+2017-10-28 16:47:59,664 - mylogger - INFO - 获取ns异常： 2388.me  Timeout
+
+2017-10-28 16:47:59,666 - mylogger - INFO - 获取ns异常： www.2388.me  list index out of range
+
+2017-10-28 16:48:12,682 - mylogger - INFO - 获取ns异常： 321786.com  Timeout
+
+2017-10-28 16:48:12,684 - mylogger - INFO - 获取ns异常： www.321786.com  list index out of range
+
+2017-10-28 16:48:46,184 - mylogger - INFO - 获取ns异常： 872873.com  Timeout
+
+2017-10-28 16:48:46,186 - mylogger - INFO - 获取ns异常： www.872873.com  list index out of range
+
+2017-10-28 16:48:59,503 - mylogger - INFO - 获取ns异常： www.604889.com  [Errno -5] No address associated with hostname
+
+2017-10-28 16:49:16,853 - mylogger - INFO - 获取ns异常： f2a6e7f4c1901e0b.360safedns.com  Timeout
+
+2017-10-28 16:49:30,172 - mylogger - INFO - 获取ns异常： www.haoqiang1688.com  Timeout
+
+2017-10-28 16:49:43,238 - mylogger - INFO - 获取ns异常： www.lxtzcy.com  Timeout
+
+2017-10-28 16:49:56,258 - mylogger - INFO - 获取ns异常： tdnlslj.com  Timeout
+
+2017-10-28 16:49:56,262 - mylogger - INFO - 获取ns异常： www.tdnlslj.com  list index out of range
+
+2017-10-28 16:50:09,324 - mylogger - INFO - 获取ns异常： www.tianyi80.com  Timeout
+
+2017-10-28 16:50:22,343 - mylogger - INFO - 获取ns异常： 51698690.com  Timeout
+
+2017-10-28 16:50:22,344 - mylogger - INFO - 获取ns异常： www.51698690.com  list index out of range
+
+2017-10-28 16:50:35,591 - mylogger - INFO - 获取ns异常： www.gzuedp.com  Timeout
+
+2017-10-28 16:50:48,603 - mylogger - INFO - 获取ns异常： ai5573.com  Timeout
+
+2017-10-28 16:50:48,605 - mylogger - INFO - 获取ns异常： www.ai5573.com  list index out of range
+
+2017-10-28 16:51:11,388 - mylogger - INFO - 获取ns异常： 020mdh.com  Timeout
+
+2017-10-28 16:51:11,390 - mylogger - INFO - 获取ns异常： www.020mdh.com  list index out of range
+
+2017-10-28 16:51:24,403 - mylogger - INFO - 获取ns异常： jacubs.com  Timeout
+
+2017-10-28 16:51:24,404 - mylogger - INFO - 获取ns异常： www.jacubs.com  list index out of range
+
+2017-10-28 16:51:53,152 - mylogger - INFO - 获取ns异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-28 16:52:08,170 - mylogger - INFO - 获取ns异常： tt511.com  Timeout
+
+2017-10-28 16:52:08,174 - mylogger - INFO - 获取ns异常： www.tt511.com  list index out of range
+
+2017-10-28 16:52:23,431 - mylogger - INFO - 获取ns异常： www.63260.com  Timeout
+
+2017-10-28 16:52:43,736 - mylogger - INFO - 获取ns异常： 321786.com  Timeout
+
+2017-10-28 16:52:43,737 - mylogger - INFO - 获取ns异常： www.321786.com  list index out of range
+
+2017-10-28 16:53:06,378 - mylogger - INFO - 获取ns异常： www.604889.com  [Errno -5] No address associated with hostname
+
+2017-10-28 16:53:31,889 - mylogger - INFO - 获取ns异常： tdnlslj.com  Timeout
+
+2017-10-28 16:53:31,894 - mylogger - INFO - 获取ns异常： www.tdnlslj.com  list index out of range
+
+2017-10-28 16:53:46,914 - mylogger - INFO - 获取ns异常： tianyi80.com  Timeout
+
+2017-10-28 16:53:46,916 - mylogger - INFO - 获取ns异常： www.tianyi80.com  list index out of range
+
+2017-10-28 16:54:07,411 - mylogger - INFO - 获取ns异常： gzuedp.com  Timeout
+
+2017-10-28 16:54:07,413 - mylogger - INFO - 获取ns异常： www.gzuedp.com  list index out of range
+
+2017-10-28 16:54:27,953 - mylogger - INFO - 获取ns异常： www.020mdh.com  Timeout
+
+2017-10-28 16:54:48,142 - mylogger - INFO - 获取ns异常： www.doocang.com  Timeout
+
+2017-10-28 16:55:13,985 - mylogger - INFO - 获取ns异常： www.0745a.com  Timeout
+
+2017-10-28 16:56:00,716 - mylogger - INFO - 获取ns异常： www.zuoyz.com  Timeout
+
+2017-10-28 16:56:21,187 - mylogger - INFO - 获取ns异常： www.cdpengli.com  Timeout
+
+2017-10-28 16:56:57,942 - mylogger - INFO - 获取ns异常： global  Timeout
+
+2017-10-28 16:56:57,942 - mylogger - INFO - 获取ns异常： bbs.com.cdnbest.global  list index out of range
+
+2017-10-28 16:57:03,331 - mylogger - INFO - 获取ns异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-28 16:57:24,165 - mylogger - INFO - 获取ns异常： www.188338.com  [Errno -5] No address associated with hostname
+
+2017-10-28 16:57:29,622 - mylogger - INFO - 获取ns异常： www.120male.com  object of type 'NoneType' has no len()
+
+2017-10-28 16:59:33,335 - mylogger - INFO - 获取ns异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-28 16:59:48,352 - mylogger - INFO - 获取ns异常： tt511.com  Timeout
+
+2017-10-28 16:59:48,353 - mylogger - INFO - 获取ns异常： www.tt511.com  list index out of range
+
+2017-10-28 17:00:03,373 - mylogger - INFO - 获取ns异常： 63260.com  Timeout
+
+2017-10-28 17:00:03,376 - mylogger - INFO - 获取ns异常： www.63260.com  list index out of range
+
+2017-10-28 17:02:24,791 - mylogger - INFO - 获取ns异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:02:39,815 - mylogger - INFO - 获取ns异常： tt511.com  Timeout
+
+2017-10-28 17:02:39,817 - mylogger - INFO - 获取ns异常： www.tt511.com  list index out of range
+
+2017-10-28 17:02:54,875 - mylogger - INFO - 获取ns异常： www.63260.com  Timeout
+
+2017-10-28 17:03:12,321 - mylogger - INFO - 获取ns异常： www.604889.com  [Errno -5] No address associated with hostname
+
+2017-10-28 17:03:27,332 - mylogger - INFO - 获取ns异常： tdnlslj.com  Timeout
+
+2017-10-28 17:03:27,334 - mylogger - INFO - 获取ns异常： www.tdnlslj.com  list index out of range
+
+2017-10-28 17:03:58,730 - mylogger - INFO - 获取ns异常： www.jacubs.com  Timeout
+
+2017-10-28 17:04:19,186 - mylogger - INFO - 获取ns异常： www.0745a.com  Timeout
+
+2017-10-28 17:04:34,343 - mylogger - INFO - 获取ns异常： www.zuoyz.com  Timeout
+
+2017-10-28 17:04:49,365 - mylogger - INFO - 获取ns异常： cdpengli.com  Timeout
+
+2017-10-28 17:04:49,368 - mylogger - INFO - 获取ns异常： www.cdpengli.com  list index out of range
+
+2017-10-28 17:05:02,113 - mylogger - INFO - 获取ns异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:05:13,296 - mylogger - INFO - 获取ns异常： www.120male.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:05:28,316 - mylogger - INFO - 获取ns异常： org.cn  Timeout
+
+2017-10-28 17:05:43,334 - mylogger - INFO - 获取ns异常： wuzhoupharm.com  Timeout
+
+2017-10-28 17:05:43,337 - mylogger - INFO - 获取ns异常： www.wuzhoupharm.com  list index out of range
+
+2017-10-28 17:06:10,039 - mylogger - INFO - 获取ns异常： 36238888.com  Timeout
+
+2017-10-28 17:06:10,040 - mylogger - INFO - 获取ns异常： www.36238888.com  list index out of range
+
+2017-10-28 17:06:36,855 - mylogger - INFO - 获取ns异常： ename.net  Timeout
+
+2017-10-28 17:06:36,855 - mylogger - INFO - 获取ns异常： pending-delete.ename.net  list index out of range
+
+2017-10-28 17:07:02,403 - mylogger - INFO - 获取ns异常： 33189999.com  Timeout
+
+2017-10-28 17:07:02,404 - mylogger - INFO - 获取ns异常： www.33189999.com  list index out of range
+
+2017-10-28 17:09:00,419 - mylogger - INFO - 获取ns异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:09:15,766 - mylogger - INFO - 获取ns异常： www.tt511.com  Timeout
+
+2017-10-28 17:09:30,980 - mylogger - INFO - 获取ns异常： www.63260.com  Timeout
+
+2017-10-28 17:09:46,628 - mylogger - INFO - 获取ns异常： www.604889.com  [Errno -5] No address associated with hostname
+
+2017-10-28 17:10:07,153 - mylogger - INFO - 获取ns异常： www.jacubs.com  Timeout
+
+2017-10-28 17:17:48,496 - mylogger - INFO - 获取ns异常： 628899.com  Timeout
+
+2017-10-28 17:20:21,288 - mylogger - INFO - 获取ns异常： 628899.com  Timeout
+
+2017-10-28 17:20:21,292 - mylogger - INFO - 获取A记录异常： www.628899.com  list index out of range
+
+2017-10-28 17:20:36,456 - mylogger - INFO - 获取A记录异常： www.tt511.com  Timeout
+
+2017-10-28 17:23:39,719 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-28 17:23:54,873 - mylogger - INFO - 获取A记录异常： www.tt511.com  Timeout
+
+2017-10-28 17:24:10,367 - mylogger - INFO - 获取A记录异常： www.63260.com  Timeout
+
+2017-10-28 17:24:25,382 - mylogger - INFO - 获取ns异常： 604889.com  Timeout
+
+2017-10-28 17:24:40,819 - mylogger - INFO - 获取A记录异常： www.jacubs.com  Timeout
+
+2017-10-28 17:25:01,628 - mylogger - INFO - 获取A记录异常： www.0745a.com  Timeout
+
+2017-10-28 17:25:25,056 - mylogger - INFO - 获取A记录异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:25:30,661 - mylogger - INFO - 获取A记录异常： www.120male.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:25:51,880 - mylogger - INFO - 获取A记录异常： www.wuzhoupharm.com  Timeout
+
+2017-10-28 17:25:57,512 - mylogger - INFO - 获取A记录异常： www.36238888.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:26:34,355 - mylogger - INFO - 获取ns异常： 228044.com  Timeout
+
+2017-10-28 17:27:54,183 - mylogger - INFO - 获取A记录异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:28:17,124 - mylogger - INFO - 获取A记录异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:28:36,885 - mylogger - INFO - 获取A记录异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:28:51,791 - mylogger - INFO - 获取A记录异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:33:38,715 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-28 17:33:59,216 - mylogger - INFO - 获取A记录异常： www.63260.com  Timeout
+
+2017-10-28 17:34:14,762 - mylogger - INFO - 获取A记录异常： www.604889.com  [Errno -5] No address associated with hostname
+
+2017-10-28 17:34:40,980 - mylogger - INFO - 获取A记录异常： www.0745a.com  Timeout
+
+2017-10-29 15:43:21,266 - mylogger - INFO - 获取A记录异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:43:21,365 - mylogger - INFO - 获取A记录异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:43:21,366 - mylogger - INFO - 获取A记录异常： www.aobo9922.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:52:35,334 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:52:35,336 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:52:35,336 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:52:50,408 - mylogger - INFO - 获取A记录异常： www.63260.com  Timeout
+
+2017-10-29 15:53:00,446 - mylogger - INFO - 获取A记录异常： www.63260.com  [Errno -2] Name or service not known
+
+2017-10-29 15:53:10,461 - mylogger - INFO - 获取A记录异常： www.63260.com  [Errno -2] Name or service not known
+
+2017-10-29 15:54:15,963 - mylogger - INFO - 获取ns异常： 63260.com  Timeout
+
+2017-10-29 15:54:26,291 - mylogger - INFO - 获取A记录异常： www.63260.com  Timeout
+
+2017-10-29 15:54:36,308 - mylogger - INFO - 获取A记录异常： www.63260.com  [Errno -2] Name or service not known
+
+2017-10-29 15:54:46,320 - mylogger - INFO - 获取A记录异常： www.63260.com  [Errno -2] Name or service not known
+
+2017-10-29 15:55:37,758 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-29 15:55:37,899 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:55:37,899 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:55:37,900 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:56:35,314 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:56:35,316 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:56:35,317 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:57:26,513 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:57:26,516 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 15:57:26,517 - mylogger - INFO - 获取A记录异常： www.628899.com  object of type 'NoneType' has no len()
+
+2017-10-29 16:05:21,086 - mylogger - INFO - 获取ns异常： 628899.com  Timeout
+
+2017-10-29 16:12:33,144 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-29 16:49:39,331 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-29 16:49:54,871 - mylogger - INFO - 获取A记录异常： www.63260.com  Timeout
+
+2017-10-29 16:51:05,714 - mylogger - INFO - 获取ns异常： 63260.com  Timeout
+
+2017-10-29 16:51:16,019 - mylogger - INFO - 获取A记录异常： www.63260.com  Timeout
+
+2017-10-29 16:51:16,062 - mylogger - INFO - 获取A记录异常： www.63260.com  [Errno -2] Name or service not known
+
+2017-10-29 16:51:16,066 - mylogger - INFO - 获取A记录异常： www.63260.com  [Errno -2] Name or service not known
+
+2017-10-29 16:51:31,561 - mylogger - INFO - 获取A记录异常： www.604889.com  [Errno -5] No address associated with hostname
+
+2017-10-29 16:51:41,571 - mylogger - INFO - 获取A记录异常： www.604889.com  [Errno -2] Name or service not known
+
+2017-10-29 16:51:51,590 - mylogger - INFO - 获取A记录异常： www.604889.com  [Errno -2] Name or service not known
+
+2017-10-29 16:52:07,166 - mylogger - INFO - 获取A记录异常： www.jacubs.com  Timeout
+
+2017-10-29 16:52:17,218 - mylogger - INFO - 获取A记录异常： www.jacubs.com  [Errno -2] Name or service not known
+
+2017-10-29 16:52:27,234 - mylogger - INFO - 获取A记录异常： www.jacubs.com  [Errno -2] Name or service not known
+
+2017-10-29 16:52:42,815 - mylogger - INFO - 获取A记录异常： www.doocang.com  Timeout
+
+2017-10-29 16:52:52,870 - mylogger - INFO - 获取A记录异常： www.doocang.com  [Errno -2] Name or service not known
+
+2017-10-29 16:53:02,885 - mylogger - INFO - 获取A记录异常： www.doocang.com  [Errno -2] Name or service not known
+
+2017-10-29 16:53:18,241 - mylogger - INFO - 获取A记录异常： www.0745a.com  Timeout
+
+2017-10-29 16:53:28,256 - mylogger - INFO - 获取A记录异常： www.0745a.com  [Errno -2] Name or service not known
+
+2017-10-29 16:54:12,097 - mylogger - INFO - 获取A记录异常： www.0745a.com  Timeout
+
+2017-10-29 16:54:22,149 - mylogger - INFO - 获取A记录异常： www.0745a.com  [Errno -2] Name or service not known
+
+2017-10-29 16:54:32,166 - mylogger - INFO - 获取A记录异常： www.0745a.com  [Errno -2] Name or service not known
+
+2017-10-29 16:54:42,174 - mylogger - INFO - 获取ns异常： 0830lou.com  Timeout
+
+2017-10-29 17:11:21,380 - mylogger - INFO - 获取A记录异常： www.v962.cn  Timeout
+
+2017-10-29 17:11:31,396 - mylogger - INFO - 获取A记录异常： www.v962.cn  [Errno -2] Name or service not known
+
+2017-10-29 17:11:41,409 - mylogger - INFO - 获取A记录异常： www.v962.cn  [Errno -2] Name or service not known
+
+2017-10-29 17:11:51,427 - mylogger - INFO - 获取ns异常： shwgqlz.com  Timeout
+
+2017-10-29 17:12:01,443 - mylogger - INFO - 获取ns异常： shwgqlz.com  Timeout
+
+2017-10-29 17:12:15,190 - mylogger - INFO - 获取ns异常： ename.net  Timeout
+
+2017-10-29 17:12:28,350 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-29 17:12:38,364 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-29 17:12:48,380 - mylogger - INFO - 获取ns异常： com  Timeout
+
+2017-10-29 17:12:58,544 - mylogger - INFO - 获取A记录异常： www.aevm.net  Timeout
+
+2017-10-29 17:13:08,551 - mylogger - INFO - 获取A记录异常： www.aevm.net  [Errno -2] Name or service not known
+
+2017-10-29 17:13:18,569 - mylogger - INFO - 获取A记录异常： www.aevm.net  [Errno -2] Name or service not known
+
+2017-10-29 17:13:28,580 - mylogger - INFO - 获取ns异常： bet007.com  Timeout
+
+2017-10-29 17:13:38,644 - mylogger - INFO - 获取A记录异常： www.bet007.com  Timeout
+
+2017-10-29 17:13:48,686 - mylogger - INFO - 获取A记录异常： www.bet007.com  [Errno -2] Name or service not known
+
+2017-10-29 17:13:58,699 - mylogger - INFO - 获取A记录异常： www.bet007.com  [Errno -2] Name or service not known
+
+2017-10-29 17:14:10,779 - mylogger - INFO - 获取A记录异常： www.020yundong.com  Timeout
+
+2017-10-29 17:14:20,795 - mylogger - INFO - 获取A记录异常： www.020yundong.com  [Errno -2] Name or service not known
+
+2017-10-29 17:14:30,809 - mylogger - INFO - 获取A记录异常： www.020yundong.com  [Errno -2] Name or service not known
+
+2017-10-29 17:14:41,616 - mylogger - INFO - 获取A记录异常： www.Lckbgg.com  Timeout
+
+2017-10-29 17:14:51,633 - mylogger - INFO - 获取A记录异常： www.Lckbgg.com  [Errno -2] Name or service not known
+
+2017-10-29 17:15:01,645 - mylogger - INFO - 获取A记录异常： www.Lckbgg.com  [Errno -2] Name or service not known
+
+2017-10-29 17:15:12,048 - mylogger - INFO - 获取A记录异常： www.hongLu-tp.com  Timeout
+
+2017-10-29 17:15:22,066 - mylogger - INFO - 获取A记录异常： www.hongLu-tp.com  [Errno -2] Name or service not known
+
+2017-10-29 17:15:32,080 - mylogger - INFO - 获取A记录异常： www.hongLu-tp.com  [Errno -2] Name or service not known
+
+2017-10-29 17:15:42,093 - mylogger - INFO - 获取ns异常： xmpLLm.com  Timeout
+
+2017-10-29 17:15:52,109 - mylogger - INFO - 获取ns异常： xmpLLm.com  Timeout
+
+2017-10-29 17:16:02,126 - mylogger - INFO - 获取ns异常： xmpLLm.com  Timeout
+
+2017-10-29 17:24:33,264 - mylogger - INFO - 获取A记录异常： www.xmpLLm.com  Timeout
+
+2017-10-29 17:24:43,281 - mylogger - INFO - 获取A记录异常： www.xmpLLm.com  [Errno -2] Name or service not known
+
+2017-10-29 17:24:53,289 - mylogger - INFO - 获取A记录异常： www.xmpLLm.com  [Errno -2] Name or service not known
+
+2017-10-29 17:25:04,129 - mylogger - INFO - 获取A记录异常： www.3jfs.com  Timeout
+
+2017-10-29 17:25:04,132 - mylogger - INFO - 获取A记录异常： www.3jfs.com  [Errno -2] Name or service not known
+
+2017-10-29 17:25:04,134 - mylogger - INFO - 获取A记录异常： www.3jfs.com  [Errno -2] Name or service not known
+
+2017-10-29 17:25:45,337 - mylogger - INFO - 获取A记录异常： www.hsmtyy.com  list index out of range
+
+2017-10-29 17:25:45,340 - mylogger - INFO - 获取A记录异常： www.hsmtyy.com  list index out of range
+
+2017-10-29 17:25:45,343 - mylogger - INFO - 获取A记录异常： www.hsmtyy.com  list index out of range
+
+2017-10-29 17:25:55,721 - mylogger - INFO - 获取A记录异常： www.szfengji.com  Timeout
+
+2017-10-29 17:25:55,726 - mylogger - INFO - 获取A记录异常： www.szfengji.com  [Errno -2] Name or service not known
+
+2017-10-29 17:25:55,730 - mylogger - INFO - 获取A记录异常： www.szfengji.com  [Errno -2] Name or service not known
+
+2017-10-29 17:27:22,795 - mylogger - INFO - 获取A记录异常： www.60345.cm  list index out of range
+
+2017-10-29 17:27:22,796 - mylogger - INFO - 获取A记录异常： www.60345.cm  list index out of range
+
+2017-10-29 17:27:22,797 - mylogger - INFO - 获取A记录异常： www.60345.cm  list index out of range
+
+2017-10-29 17:28:14,038 - mylogger - INFO - 获取A记录异常： www.kjjl.net  list index out of range
+
+2017-10-29 17:28:14,041 - mylogger - INFO - 获取A记录异常： www.kjjl.net  list index out of range
+
+2017-10-29 17:28:14,042 - mylogger - INFO - 获取A记录异常： www.kjjl.net  list index out of range
+
+2017-10-29 17:29:04,449 - mylogger - INFO - 获取A记录异常： www.911.hk  list index out of range
+
+2017-10-29 17:29:04,449 - mylogger - INFO - 获取A记录异常： www.911.hk  list index out of range
+
+2017-10-29 17:29:04,450 - mylogger - INFO - 获取A记录异常： www.911.hk  list index out of range
+
+2017-10-29 17:29:16,000 - mylogger - INFO - 获取A记录异常： www.42678.me  Timeout
+
+2017-10-29 17:29:26,084 - mylogger - INFO - 获取A记录异常： www.42678.me  [Errno -2] Name or service not known
+
+2017-10-29 17:29:36,100 - mylogger - INFO - 获取A记录异常： www.42678.me  [Errno -2] Name or service not known
+
+2017-10-29 17:30:57,628 - mylogger - INFO - 获取A记录异常： www.yyycp30.com  list index out of range
+
+2017-10-29 17:30:57,629 - mylogger - INFO - 获取A记录异常： www.yyycp30.com  list index out of range
+
+2017-10-29 17:30:57,630 - mylogger - INFO - 获取A记录异常： www.yyycp30.com  list index out of range
+
+2017-10-29 17:31:08,510 - mylogger - INFO - 获取A记录异常： www.bk135.com  Timeout
+
+2017-10-29 17:31:18,579 - mylogger - INFO - 获取A记录异常： www.bk135.com  [Errno -2] Name or service not known
+
+2017-10-29 17:31:28,587 - mylogger - INFO - 获取A记录异常： www.bk135.com  [Errno -2] Name or service not known
+
+2017-10-29 17:31:50,778 - mylogger - INFO - 获取A记录异常： www.56dh.net  Timeout
+
+2017-10-29 17:32:00,788 - mylogger - INFO - 获取A记录异常： www.56dh.net  [Errno -2] Name or service not known
+
+2017-10-29 17:32:10,798 - mylogger - INFO - 获取A记录异常： www.56dh.net  [Errno -2] Name or service not known
+
+2017-10-29 17:32:21,318 - mylogger - INFO - 获取A记录异常： www.2881w.com  Timeout
+
+2017-10-29 17:32:31,379 - mylogger - INFO - 获取A记录异常： www.2881w.com  [Errno -2] Name or service not known
+
+2017-10-29 17:32:41,395 - mylogger - INFO - 获取A记录异常： www.2881w.com  [Errno -2] Name or service not known
+
+2017-10-29 17:32:51,557 - mylogger - INFO - 获取A记录异常： www.2txc.com  Timeout
+
+2017-10-29 17:33:01,614 - mylogger - INFO - 获取A记录异常： www.2txc.com  [Errno -2] Name or service not known
+
+2017-10-29 17:33:11,629 - mylogger - INFO - 获取A记录异常： www.2txc.com  [Errno -2] Name or service not known
+
+2017-10-29 17:33:25,351 - mylogger - INFO - 获取A记录异常： www.2tame.net  Timeout
+
+2017-10-29 17:33:35,369 - mylogger - INFO - 获取A记录异常： www.2tame.net  [Errno -2] Name or service not known
+
+2017-10-29 17:33:45,386 - mylogger - INFO - 获取A记录异常： www.2tame.net  [Errno -2] Name or service not known
+
+2017-10-29 17:33:55,546 - mylogger - INFO - 获取A记录异常： www.551333.com  Timeout
+
+2017-10-29 17:34:05,559 - mylogger - INFO - 获取A记录异常： www.551333.com  [Errno -2] Name or service not known
+
+2017-10-29 17:34:15,574 - mylogger - INFO - 获取A记录异常： www.551333.com  [Errno -2] Name or service not known
+
+2017-10-29 17:34:26,343 - mylogger - INFO - 获取A记录异常： www.7hst.com  Timeout
+
+2017-10-29 17:34:36,357 - mylogger - INFO - 获取A记录异常： www.7hst.com  [Errno -2] Name or service not known
+
+2017-10-29 17:34:46,371 - mylogger - INFO - 获取A记录异常： www.7hst.com  [Errno -2] Name or service not known
+
+2017-10-29 17:35:07,997 - mylogger - INFO - 获取A记录异常： www.188188.la  [Errno -2] Name or service not known
+
+2017-10-29 17:35:18,101 - mylogger - INFO - 获取A记录异常： www.188188.la  [Errno -2] Name or service not known
+
+2017-10-29 17:35:28,118 - mylogger - INFO - 获取A记录异常： www.188188.la  [Errno -2] Name or service not known
+
+2017-10-29 17:36:11,470 - mylogger - INFO - 获取A记录异常： www.6hct.net  list index out of range
+
+2017-10-29 17:36:11,472 - mylogger - INFO - 获取A记录异常： www.6hct.net  list index out of range
+
+2017-10-29 17:36:11,473 - mylogger - INFO - 获取A记录异常： www.6hct.net  list index out of range
+
+2017-10-29 17:36:25,249 - mylogger - INFO - 获取A记录异常： www.c2007cp.com  Timeout
+
+2017-10-29 17:36:35,263 - mylogger - INFO - 获取A记录异常： www.c2007cp.com  [Errno -2] Name or service not known
+
+2017-10-29 17:36:45,274 - mylogger - INFO - 获取A记录异常： www.c2007cp.com  [Errno -2] Name or service not known
+
+2017-10-29 17:36:57,914 - mylogger - INFO - 获取A记录异常： www.988hz.pw  Timeout
+
+2017-10-29 17:36:57,918 - mylogger - INFO - 获取A记录异常： www.988hz.pw  [Errno -2] Name or service not known
+
+2017-10-29 17:36:57,921 - mylogger - INFO - 获取A记录异常： www.988hz.pw  [Errno -2] Name or service not known
+
+2017-10-29 17:37:08,499 - mylogger - INFO - 获取A记录异常： www.cp2007.com  Timeout
+
+2017-10-29 17:37:08,505 - mylogger - INFO - 获取A记录异常： www.cp2007.com  [Errno -2] Name or service not known
+
+2017-10-29 17:37:08,521 - mylogger - INFO - 获取A记录异常： www.cp2007.com  [Errno -2] Name or service not known
+
+2017-10-29 17:37:58,181 - mylogger - INFO - 获取A记录异常： www.kkk3666.com  [Errno -5] No address associated with hostname
+
+2017-10-29 17:38:08,196 - mylogger - INFO - 获取A记录异常： www.kkk3666.com  [Errno -2] Name or service not known
+
+2017-10-29 17:38:18,214 - mylogger - INFO - 获取A记录异常： www.kkk3666.com  [Errno -2] Name or service not known
+
+2017-10-29 17:38:29,677 - mylogger - INFO - 获取A记录异常： www.358kai.com  list index out of range
+
+2017-10-29 17:38:29,680 - mylogger - INFO - 获取A记录异常： www.358kai.com  list index out of range
+
+2017-10-29 17:38:29,680 - mylogger - INFO - 获取A记录异常： www.358kai.com  list index out of range
+
+2017-10-29 17:39:28,437 - mylogger - INFO - 获取A记录异常： www.500.ccgslb.net  list index out of range
+
+2017-10-29 17:39:28,438 - mylogger - INFO - 获取A记录异常： www.500.ccgslb.net  list index out of range
+
+2017-10-29 17:39:28,441 - mylogger - INFO - 获取A记录异常： www.500.ccgslb.net  list index out of range
+
+2017-10-29 17:40:01,085 - mylogger - INFO - 获取A记录异常： www.272799.com  [Errno -5] No address associated with hostname
+
+2017-10-29 17:40:11,103 - mylogger - INFO - 获取A记录异常： www.272799.com  [Errno -2] Name or service not known
+
+2017-10-29 17:40:21,118 - mylogger - INFO - 获取A记录异常： www.272799.com  [Errno -2] Name or service not known
+
+2017-10-29 17:40:55,293 - mylogger - INFO - 获取A记录异常： www.1qlc.com  Timeout
+
+2017-10-29 17:40:55,294 - mylogger - INFO - 获取A记录异常： www.1qlc.com  [Errno 22] Invalid argument
+
+2017-10-29 17:40:55,295 - mylogger - INFO - 获取A记录异常： www.1qlc.com  [Errno 22] Invalid argument
+
+2017-10-29 17:41:05,339 - mylogger - INFO - 获取A记录异常： www.fj598.com  Timeout
+
+2017-10-29 17:41:15,357 - mylogger - INFO - 获取A记录异常： www.fj598.com  [Errno -2] Name or service not known
+
+2017-10-29 17:41:25,372 - mylogger - INFO - 获取A记录异常： www.fj598.com  [Errno -2] Name or service not known
+
+2017-10-29 17:41:35,529 - mylogger - INFO - 获取A记录异常： www.szchuanghaoys.com  Timeout
+
+2017-10-29 17:41:45,543 - mylogger - INFO - 获取A记录异常： www.szchuanghaoys.com  [Errno -2] Name or service not known
+
+2017-10-29 17:41:55,557 - mylogger - INFO - 获取A记录异常： www.szchuanghaoys.com  [Errno -2] Name or service not known
+
+2017-10-29 17:42:05,840 - mylogger - INFO - 获取A记录异常： www.wangdaixitongkaifa.com  Timeout
+
+2017-10-29 17:42:15,851 - mylogger - INFO - 获取A记录异常： www.wangdaixitongkaifa.com  [Errno -2] Name or service not known
+
+2017-10-29 17:42:25,867 - mylogger - INFO - 获取A记录异常： www.wangdaixitongkaifa.com  [Errno -2] Name or service not known
+
+2017-10-29 17:42:58,605 - mylogger - INFO - 获取A记录异常： www.tt55666.com  Timeout
+
+2017-10-29 17:43:08,612 - mylogger - INFO - 获取A记录异常： www.tt55666.com  [Errno -2] Name or service not known
+
+2017-10-29 17:43:18,628 - mylogger - INFO - 获取A记录异常： www.tt55666.com  [Errno -2] Name or service not known
+
+2017-10-29 17:43:30,213 - mylogger - INFO - 获取A记录异常： www.501255.com  Timeout
+
+2017-10-29 17:43:40,225 - mylogger - INFO - 获取A记录异常： www.501255.com  [Errno -2] Name or service not known
+
+2017-10-29 17:43:50,242 - mylogger - INFO - 获取A记录异常： www.501255.com  [Errno -2] Name or service not known
+
+2017-10-29 17:44:23,076 - mylogger - INFO - 获取A记录异常： www.ty6655.net  Timeout
+
+2017-10-29 17:44:23,078 - mylogger - INFO - 获取A记录异常： www.ty6655.net  [Errno 22] Invalid argument
+
+2017-10-29 17:44:23,078 - mylogger - INFO - 获取A记录异常： www.ty6655.net  [Errno 22] Invalid argument
+
+2017-10-29 17:44:35,093 - mylogger - INFO - 获取A记录异常： www.tm096.com  Timeout
+
+2017-10-29 17:44:45,111 - mylogger - INFO - 获取A记录异常： www.tm096.com  [Errno -2] Name or service not known
+
+2017-10-29 17:44:55,122 - mylogger - INFO - 获取A记录异常： www.tm096.com  [Errno -2] Name or service not known
+
+2017-10-29 17:45:07,003 - mylogger - INFO - 获取A记录异常： www.5566171.com  Timeout
+
+2017-10-29 17:45:17,012 - mylogger - INFO - 获取A记录异常： www.5566171.com  [Errno -2] Name or service not known
+
+2017-10-29 17:45:27,030 - mylogger - INFO - 获取A记录异常： www.5566171.com  [Errno -2] Name or service not known
+
+2017-10-29 18:22:11,902 - mylogger - INFO - 获取A记录异常： 0906767.com  Timeout
+
+2017-10-29 18:22:21,915 - mylogger - INFO - 获取A记录异常： 0906767.com  [Errno -2] Name or service not known
+
+2017-10-29 18:22:31,924 - mylogger - INFO - 获取A记录异常： 0906767.com  [Errno -2] Name or service not known
+
+2017-10-29 18:22:42,091 - mylogger - INFO - 获取A记录异常： www.ji181.com  Timeout
+
+2017-10-29 18:22:52,110 - mylogger - INFO - 获取A记录异常： www.ji181.com  [Errno -2] Name or service not known
+
+2017-10-29 18:23:02,122 - mylogger - INFO - 获取A记录异常： www.ji181.com  [Errno -2] Name or service not known
+
+2017-10-29 18:23:24,711 - mylogger - INFO - 获取A记录异常： tc.cdn345678.com  Timeout
+
+2017-10-29 18:23:24,716 - mylogger - INFO - 获取A记录异常： tc.cdn345678.com  [Errno -2] Name or service not known
+
+2017-10-29 18:23:24,721 - mylogger - INFO - 获取A记录异常： tc.cdn345678.com  [Errno -2] Name or service not known
+
+2017-10-29 18:23:36,885 - mylogger - INFO - 获取A记录异常： www.ymz789.com  Timeout
+
+2017-10-29 18:23:46,895 - mylogger - INFO - 获取A记录异常： www.ymz789.com  [Errno -2] Name or service not known
+
+2017-10-29 18:23:56,907 - mylogger - INFO - 获取A记录异常： www.ymz789.com  [Errno -2] Name or service not known
+
+2017-10-29 18:24:07,050 - mylogger - INFO - 获取A记录异常： www.168577.com  Timeout
+
+2017-10-29 18:24:17,066 - mylogger - INFO - 获取A记录异常： www.168577.com  [Errno -2] Name or service not known
+
+2017-10-29 18:24:27,078 - mylogger - INFO - 获取A记录异常： www.168577.com  [Errno -2] Name or service not known
+
+2017-10-29 18:24:37,405 - mylogger - INFO - 获取A记录异常： www.667877.com  Timeout
+
+2017-10-29 18:24:37,412 - mylogger - INFO - 获取A记录异常： www.667877.com  [Errno -2] Name or service not known
+
+2017-10-29 18:24:37,420 - mylogger - INFO - 获取A记录异常： www.667877.com  [Errno -2] Name or service not known
+
+2017-10-29 18:24:48,861 - mylogger - INFO - 获取A记录异常： www.7676123.com  Timeout
+
+2017-10-29 18:24:48,865 - mylogger - INFO - 获取A记录异常： www.7676123.com  [Errno 22] Invalid argument
+
+2017-10-29 18:24:48,866 - mylogger - INFO - 获取A记录异常： www.7676123.com  [Errno 22] Invalid argument
+
+2017-10-29 18:25:14,047 - mylogger - INFO - 获取A记录异常： vjjshd23.yunfangyu9.com  Timeout
+
+2017-10-29 18:25:24,064 - mylogger - INFO - 获取A记录异常： vjjshd23.yunfangyu9.com  [Errno -2] Name or service not known
+
+2017-10-29 18:25:34,073 - mylogger - INFO - 获取A记录异常： vjjshd23.yunfangyu9.com  [Errno -2] Name or service not known
+
+2017-10-29 18:25:44,478 - mylogger - INFO - 获取A记录异常： www.bu90.com  Timeout
+
+2017-10-29 18:25:54,495 - mylogger - INFO - 获取A记录异常： www.bu90.com  [Errno -2] Name or service not known
+
+2017-10-29 18:26:04,511 - mylogger - INFO - 获取A记录异常： www.bu90.com  [Errno -2] Name or service not known
+
+2017-10-29 18:26:14,894 - mylogger - INFO - 获取A记录异常： www.www-06789.com  Timeout
+
+2017-10-29 18:26:24,906 - mylogger - INFO - 获取A记录异常： www.www-06789.com  [Errno -2] Name or service not known
+
+2017-10-29 18:26:34,918 - mylogger - INFO - 获取A记录异常： www.www-06789.com  [Errno -2] Name or service not known
+
+2017-10-29 18:26:45,073 - mylogger - INFO - 获取A记录异常： www.yao616.com  Timeout
+
+2017-10-29 18:26:55,090 - mylogger - INFO - 获取A记录异常： www.yao616.com  [Errno -2] Name or service not known
+
+2017-10-29 18:27:05,104 - mylogger - INFO - 获取A记录异常： www.yao616.com  [Errno -2] Name or service not known
+
+2017-10-29 18:27:15,243 - mylogger - INFO - 获取A记录异常： www.yao656.com  Timeout
+
+2017-10-29 18:27:25,255 - mylogger - INFO - 获取A记录异常： www.yao656.com  [Errno -2] Name or service not known
+
+2017-10-29 18:27:35,267 - mylogger - INFO - 获取A记录异常： www.yao656.com  [Errno -2] Name or service not known
+
+2017-10-29 18:27:46,513 - mylogger - INFO - 获取A记录异常： www.6767010.com  Timeout
+
+2017-10-29 18:27:46,519 - mylogger - INFO - 获取A记录异常： www.6767010.com  [Errno -2] Name or service not known
+
+2017-10-29 18:27:46,522 - mylogger - INFO - 获取A记录异常： www.6767010.com  [Errno -2] Name or service not known
+
+2017-10-29 18:27:56,689 - mylogger - INFO - 获取A记录异常： www.6767030.com  Timeout
+
+2017-10-29 18:28:06,701 - mylogger - INFO - 获取A记录异常： www.6767030.com  [Errno -2] Name or service not known
+
+2017-10-29 18:28:16,718 - mylogger - INFO - 获取A记录异常： www.6767030.com  [Errno -2] Name or service not known
+
+2017-10-29 18:28:58,125 - mylogger - INFO - 获取A记录异常： www.387388.com  Timeout
+
+2017-10-29 18:29:08,213 - mylogger - INFO - 获取A记录异常： www.387388.com  [Errno -2] Name or service not known
+
+2017-10-29 18:29:18,229 - mylogger - INFO - 获取A记录异常： www.387388.com  [Errno -2] Name or service not known
+
+2017-10-29 18:29:29,293 - mylogger - INFO - 获取A记录异常： www.ymz988.com  Timeout
+
+2017-10-29 18:29:29,297 - mylogger - INFO - 获取A记录异常： www.ymz988.com  [Errno 22] Invalid argument
+
+2017-10-29 18:29:29,298 - mylogger - INFO - 获取A记录异常： www.ymz988.com  [Errno 22] Invalid argument
+
+2017-10-29 18:29:49,545 - mylogger - INFO - 获取A记录异常： www.5656010.com  Timeout
+
+2017-10-29 18:29:59,555 - mylogger - INFO - 获取A记录异常： www.5656010.com  [Errno -2] Name or service not known
+
+2017-10-29 18:30:09,569 - mylogger - INFO - 获取A记录异常： www.5656010.com  [Errno -2] Name or service not known
+
+2017-10-29 18:30:19,737 - mylogger - INFO - 获取A记录异常： www.9898060.com  Timeout
+
+2017-10-29 18:30:19,740 - mylogger - INFO - 获取A记录异常： www.9898060.com  [Errno 22] Invalid argument
+
+2017-10-29 18:30:19,745 - mylogger - INFO - 获取A记录异常： www.9898060.com  [Errno 22] Invalid argument
+
+2017-10-29 18:30:30,220 - mylogger - INFO - 获取A记录异常： www.bb896.com  Timeout
+
+2017-10-29 18:30:40,238 - mylogger - INFO - 获取A记录异常： www.bb896.com  [Errno -2] Name or service not known
+
+2017-10-29 18:30:50,251 - mylogger - INFO - 获取A记录异常： www.bb896.com  [Errno -2] Name or service not known
+
+2017-10-29 18:31:24,821 - mylogger - INFO - 获取A记录异常： www.tt533.com  Timeout
+
+2017-10-29 18:31:34,835 - mylogger - INFO - 获取A记录异常： www.tt533.com  [Errno -2] Name or service not known
+
+2017-10-29 18:31:44,847 - mylogger - INFO - 获取A记录异常： www.tt533.com  [Errno -2] Name or service not known
+
+2017-10-29 18:31:55,124 - mylogger - INFO - 获取A记录异常： www.299008.com  Timeout
+
+2017-10-29 18:31:55,127 - mylogger - INFO - 获取A记录异常： www.299008.com  [Errno -2] Name or service not known
+
+2017-10-29 18:31:55,129 - mylogger - INFO - 获取A记录异常： www.299008.com  [Errno -2] Name or service not known
+
+2017-10-29 18:32:11,293 - mylogger - INFO - 获取A记录异常： 1369898.com  Timeout
+
+2017-10-29 18:32:21,311 - mylogger - INFO - 获取A记录异常： 1369898.com  [Errno -2] Name or service not known
+
+2017-10-29 18:32:31,326 - mylogger - INFO - 获取A记录异常： 1369898.com  [Errno -2] Name or service not known
+
+2017-10-29 18:32:41,795 - mylogger - INFO - 获取A记录异常： www.431228.com  Timeout
+
+2017-10-29 18:32:51,805 - mylogger - INFO - 获取A记录异常： www.431228.com  [Errno -2] Name or service not known
+
+2017-10-29 18:33:01,816 - mylogger - INFO - 获取A记录异常： www.431228.com  [Errno -2] Name or service not known
+
+2017-10-29 18:33:11,974 - mylogger - INFO - 获取A记录异常： www.1180505.com  Timeout
+
+2017-10-29 18:33:11,980 - mylogger - INFO - 获取A记录异常： www.1180505.com  [Errno -2] Name or service not known
+
+2017-10-29 18:33:11,983 - mylogger - INFO - 获取A记录异常： www.1180505.com  [Errno -2] Name or service not known
+
+2017-10-29 18:33:22,138 - mylogger - INFO - 获取A记录异常： www.0602288.com  Timeout
+
+2017-10-29 18:33:32,152 - mylogger - INFO - 获取A记录异常： www.0602288.com  [Errno -2] Name or service not known
+
+2017-10-29 18:33:42,170 - mylogger - INFO - 获取A记录异常： www.0602288.com  [Errno -2] Name or service not known
+
+2017-10-29 18:33:52,453 - mylogger - INFO - 获取A记录异常： www.8899616.com  Timeout
+
+2017-10-29 18:33:52,454 - mylogger - INFO - 获取A记录异常： www.8899616.com  [Errno 22] Invalid argument
+
+2017-10-29 18:33:52,455 - mylogger - INFO - 获取A记录异常： www.8899616.com  [Errno 22] Invalid argument
+
+2017-10-29 18:34:02,749 - mylogger - INFO - 获取A记录异常： www.16807.com  Timeout
+
+2017-10-29 18:34:12,757 - mylogger - INFO - 获取A记录异常： www.16807.com  [Errno -2] Name or service not known
+
+2017-10-29 18:34:22,769 - mylogger - INFO - 获取A记录异常： www.16807.com  [Errno -2] Name or service not known
+
+2017-10-29 18:34:33,294 - mylogger - INFO - 获取A记录异常： www.7788050.com  Timeout
+
+2017-10-29 18:34:33,298 - mylogger - INFO - 获取A记录异常： www.7788050.com  [Errno -2] Name or service not known
+
+2017-10-29 18:34:33,302 - mylogger - INFO - 获取A记录异常： www.7788050.com  [Errno -2] Name or service not known
+
+2017-10-29 18:34:43,759 - mylogger - INFO - 获取A记录异常： www.154181.com  Timeout
+
+2017-10-29 18:34:53,777 - mylogger - INFO - 获取A记录异常： www.154181.com  [Errno -2] Name or service not known
+
+2017-10-29 18:35:03,794 - mylogger - INFO - 获取A记录异常： www.154181.com  [Errno -2] Name or service not known
+
+2017-10-29 18:35:15,643 - mylogger - INFO - 获取A记录异常： www.06049.com  Timeout
+
+2017-10-29 18:35:37,672 - mylogger - INFO - 获取A记录异常： www.06049.com  Timeout
+
+2017-10-29 18:35:47,689 - mylogger - INFO - 获取A记录异常： www.06049.com  [Errno -2] Name or service not known
+
+2017-10-29 18:35:58,656 - mylogger - INFO - 获取A记录异常： www.1188030.com  Timeout
+
+2017-10-29 18:36:08,674 - mylogger - INFO - 获取A记录异常： www.1188030.com  [Errno -2] Name or service not known
+
+2017-10-29 18:36:18,690 - mylogger - INFO - 获取A记录异常： www.1188030.com  [Errno -2] Name or service not known
+
+2017-10-29 18:36:28,964 - mylogger - INFO - 获取A记录异常： www.xg899.com  Timeout
+
+2017-10-29 18:36:38,974 - mylogger - INFO - 获取A记录异常： www.xg899.com  [Errno -2] Name or service not known
+
+2017-10-29 18:36:48,986 - mylogger - INFO - 获取A记录异常： www.xg899.com  [Errno -2] Name or service not known
+
+2017-10-29 18:36:59,998 - mylogger - INFO - 获取A记录异常： www.0305858.com  Timeout
+
+2017-10-29 18:37:10,017 - mylogger - INFO - 获取A记录异常： www.0305858.com  [Errno -2] Name or service not known
+
+2017-10-29 18:37:20,031 - mylogger - INFO - 获取A记录异常： www.0305858.com  [Errno -2] Name or service not known
+
+2017-10-29 18:37:30,185 - mylogger - INFO - 获取A记录异常： www.558338d.com  Timeout
+
+2017-10-29 18:37:40,198 - mylogger - INFO - 获取A记录异常： www.558338d.com  [Errno -2] Name or service not known
+
+2017-10-29 18:37:50,212 - mylogger - INFO - 获取A记录异常： www.558338d.com  [Errno -2] Name or service not known
+
+2017-10-29 18:38:01,841 - mylogger - INFO - 获取A记录异常： hu878.com  Timeout
+
+2017-10-29 18:38:01,849 - mylogger - INFO - 获取A记录异常： hu878.com  [Errno -2] Name or service not known
+
+2017-10-29 18:38:01,858 - mylogger - INFO - 获取A记录异常： hu878.com  [Errno -2] Name or service not known
+
+2017-10-29 18:38:12,785 - mylogger - INFO - 获取A记录异常： www.5138899.com  Timeout
+
+2017-10-29 18:38:22,795 - mylogger - INFO - 获取A记录异常： www.5138899.com  [Errno -2] Name or service not known
+
+2017-10-29 18:38:32,810 - mylogger - INFO - 获取A记录异常： www.5138899.com  [Errno -2] Name or service not known
+
+2017-10-29 18:38:49,824 - mylogger - INFO - 获取A记录异常： www.4949123.com  Timeout
+
+2017-10-29 18:38:59,840 - mylogger - INFO - 获取A记录异常： www.4949123.com  [Errno -2] Name or service not known
+
+2017-10-29 18:39:09,858 - mylogger - INFO - 获取A记录异常： www.4949123.com  [Errno -2] Name or service not known
+
+2017-10-29 18:39:20,336 - mylogger - INFO - 获取A记录异常： www.5566151.com  Timeout
+
+2017-10-29 18:39:30,442 - mylogger - INFO - 获取A记录异常： www.5566151.com  [Errno -2] Name or service not known
+
+2017-10-29 18:39:40,457 - mylogger - INFO - 获取A记录异常： www.5566151.com  [Errno -2] Name or service not known
+
+2017-10-29 18:39:50,749 - mylogger - INFO - 获取A记录异常： www.ypt89.com  Timeout
+
+2017-10-29 18:40:00,764 - mylogger - INFO - 获取A记录异常： www.ypt89.com  [Errno -2] Name or service not known
+
+2017-10-29 18:40:10,779 - mylogger - INFO - 获取A记录异常： www.ypt89.com  [Errno -2] Name or service not known
+
+2017-10-29 18:41:09,143 - mylogger - INFO - 获取A记录异常： 0509898.com  Timeout
+
+2017-10-29 18:41:19,158 - mylogger - INFO - 获取A记录异常： 0509898.com  [Errno -2] Name or service not known
+
+2017-10-29 18:41:29,174 - mylogger - INFO - 获取A记录异常： 0509898.com  [Errno -2] Name or service not known
+
+2017-10-29 18:41:51,644 - mylogger - INFO - 获取A记录异常： 0406767.com  Timeout
+
+2017-10-29 18:42:01,657 - mylogger - INFO - 获取A记录异常： 0406767.com  [Errno -2] Name or service not known
+
+2017-10-29 18:42:11,674 - mylogger - INFO - 获取A记录异常： 0406767.com  [Errno -2] Name or service not known
+
+2017-10-29 18:42:23,293 - mylogger - INFO - 获取A记录异常： www.3l55.com  Timeout
+
+2017-10-29 18:42:23,297 - mylogger - INFO - 获取A记录异常： www.3l55.com  [Errno 22] Invalid argument
+
+2017-10-29 18:42:23,298 - mylogger - INFO - 获取A记录异常： www.3l55.com  [Errno 22] Invalid argument
+
+2017-10-29 18:43:04,412 - mylogger - INFO - 获取A记录异常： www.xg418.com  list index out of range
+
+2017-10-29 18:43:04,413 - mylogger - INFO - 获取A记录异常： www.xg418.com  list index out of range
+
+2017-10-29 18:43:04,416 - mylogger - INFO - 获取A记录异常： www.xg418.com  list index out of range
+
+2017-10-29 18:43:05,196 - mylogger - INFO - 获取A记录异常： www.500wan.lxsvc.cn  list index out of range
+
+2017-10-29 18:43:05,197 - mylogger - INFO - 获取A记录异常： www.500wan.lxsvc.cn  list index out of range
+
+2017-10-29 18:43:05,198 - mylogger - INFO - 获取A记录异常： www.500wan.lxsvc.cn  list index out of range
+
+2017-10-29 18:43:18,221 - mylogger - INFO - 获取A记录异常： xg539.com  Timeout
+
+2017-10-29 18:43:28,595 - mylogger - INFO - 获取A记录异常： xg539.com  [Errno -2] Name or service not known
+
+2017-10-29 18:43:38,613 - mylogger - INFO - 获取A记录异常： xg539.com  [Errno -2] Name or service not known
+
+2017-10-29 18:43:50,162 - mylogger - INFO - 获取A记录异常： www.hk2525.com  Timeout
+
+2017-10-29 18:44:00,176 - mylogger - INFO - 获取A记录异常： www.hk2525.com  [Errno -2] Name or service not known
+
+2017-10-29 18:44:10,190 - mylogger - INFO - 获取A记录异常： www.hk2525.com  [Errno -2] Name or service not known
+
+2017-10-29 18:44:41,049 - mylogger - INFO - 获取A记录异常： fa478.com  Timeout
+
+2017-10-29 18:44:41,054 - mylogger - INFO - 获取A记录异常： fa478.com  [Errno -2] Name or service not known
+
+2017-10-29 18:44:41,057 - mylogger - INFO - 获取A记录异常： fa478.com  [Errno -2] Name or service not known
+
+2017-10-29 18:44:52,913 - mylogger - INFO - 获取A记录异常： hk408.com  Timeout
+
+2017-10-29 18:45:02,928 - mylogger - INFO - 获取A记录异常： hk408.com  [Errno -2] Name or service not known
+
+2017-10-29 18:45:12,945 - mylogger - INFO - 获取A记录异常： hk408.com  [Errno -2] Name or service not known
+
+2017-10-29 18:45:25,379 - mylogger - INFO - 获取A记录异常： hk6565.com  Timeout
+
+2017-10-29 18:45:35,395 - mylogger - INFO - 获取A记录异常： hk6565.com  [Errno -2] Name or service not known
+
+2017-10-29 18:45:45,407 - mylogger - INFO - 获取A记录异常： hk6565.com  [Errno -2] Name or service not known
+
+2017-10-29 18:47:02,235 - mylogger - INFO - 获取A记录异常： www.6767020.com  Timeout
+
+2017-10-29 18:47:12,251 - mylogger - INFO - 获取A记录异常： www.6767020.com  [Errno -2] Name or service not known
+
+2017-10-29 18:47:22,267 - mylogger - INFO - 获取A记录异常： www.6767020.com  [Errno -2] Name or service not known
+
+2017-10-29 18:47:42,739 - mylogger - INFO - 获取A记录异常： www.5566363.com  Timeout
+
+2017-10-29 18:47:52,753 - mylogger - INFO - 获取A记录异常： www.5566363.com  [Errno -2] Name or service not known
+
+2017-10-29 18:48:02,763 - mylogger - INFO - 获取A记录异常： www.5566363.com  [Errno -2] Name or service not known
+
+2017-10-29 18:48:35,407 - mylogger - INFO - 获取A记录异常： www.cc9988.cc  Timeout
+
+2017-10-29 18:48:35,411 - mylogger - INFO - 获取A记录异常： www.cc9988.cc  [Errno 22] Invalid argument
+
+2017-10-29 18:48:35,412 - mylogger - INFO - 获取A记录异常： www.cc9988.cc  [Errno 22] Invalid argument
+
+2017-10-29 18:48:46,511 - mylogger - INFO - 获取A记录异常： www.612555.com  Timeout
+
+2017-10-29 18:48:46,516 - mylogger - INFO - 获取A记录异常： www.612555.com  [Errno -2] Name or service not known
+
+2017-10-29 18:48:46,519 - mylogger - INFO - 获取A记录异常： www.612555.com  [Errno -2] Name or service not known
+
+2017-10-29 18:48:57,700 - mylogger - INFO - 获取A记录异常： www.j8889.com  Timeout
+
+2017-10-29 18:49:07,715 - mylogger - INFO - 获取A记录异常： www.j8889.com  [Errno -2] Name or service not known
+
+2017-10-29 18:49:17,732 - mylogger - INFO - 获取A记录异常： www.j8889.com  [Errno -2] Name or service not known
+
+2017-10-29 18:49:40,114 - mylogger - INFO - 获取A记录异常： www.kz0088.cc  Timeout
+
+2017-10-29 18:49:40,118 - mylogger - INFO - 获取A记录异常： www.kz0088.cc  [Errno 22] Invalid argument
+
+2017-10-29 18:49:40,120 - mylogger - INFO - 获取A记录异常： www.kz0088.cc  [Errno 22] Invalid argument
+
+2017-10-29 18:49:53,874 - mylogger - INFO - 获取A记录异常： www.6999088.com  Timeout
+
+2017-10-29 18:49:53,877 - mylogger - INFO - 获取A记录异常： www.6999088.com  [Errno 22] Invalid argument
+
+2017-10-29 18:49:53,880 - mylogger - INFO - 获取A记录异常： www.6999088.com  [Errno 22] Invalid argument
+
+2017-10-29 18:50:14,264 - mylogger - INFO - 获取A记录异常： www.6796796.com  Timeout
+
+2017-10-29 18:50:24,280 - mylogger - INFO - 获取A记录异常： www.6796796.com  [Errno -2] Name or service not known
+
+2017-10-29 18:50:34,295 - mylogger - INFO - 获取A记录异常： www.6796796.com  [Errno -2] Name or service not known
+
+2017-10-29 18:51:25,181 - mylogger - INFO - 获取A记录异常： www.tm666.com  list index out of range
+
+2017-10-29 18:51:25,182 - mylogger - INFO - 获取A记录异常： www.tm666.com  list index out of range
+
+2017-10-29 18:51:25,183 - mylogger - INFO - 获取A记录异常： www.tm666.com  list index out of range
+
+2017-10-29 18:52:09,127 - mylogger - INFO - 获取A记录异常： www.806111.com  [Errno -5] No address associated with hostname
+
+2017-10-29 18:52:19,141 - mylogger - INFO - 获取A记录异常： www.806111.com  [Errno -2] Name or service not known
+
+2017-10-29 18:52:29,150 - mylogger - INFO - 获取A记录异常： www.806111.com  [Errno -2] Name or service not known
+
+2017-10-29 18:52:55,835 - mylogger - INFO - 获取A记录异常： www.858999.com  Timeout
+
+2017-10-29 18:53:05,851 - mylogger - INFO - 获取A记录异常： www.858999.com  [Errno -2] Name or service not known
+
+2017-10-29 18:53:15,869 - mylogger - INFO - 获取A记录异常： www.858999.com  [Errno -2] Name or service not known
+
+2017-10-29 18:53:44,544 - mylogger - INFO - 获取A记录异常： www.81797.com  Timeout
+
+2017-10-29 18:53:54,702 - mylogger - INFO - 获取A记录异常： www.81797.com  [Errno -2] Name or service not known
+
+2017-10-29 18:54:04,713 - mylogger - INFO - 获取A记录异常： www.81797.com  [Errno -2] Name or service not known
+
+2017-10-29 18:54:20,792 - mylogger - INFO - 获取A记录异常： www.ygm6688.com  Timeout
+
+2017-10-29 18:54:30,805 - mylogger - INFO - 获取A记录异常： www.ygm6688.com  [Errno -2] Name or service not known
+
+2017-10-29 18:54:40,822 - mylogger - INFO - 获取A记录异常： www.ygm6688.com  [Errno -2] Name or service not known
+
+2017-10-29 18:55:36,718 - mylogger - INFO - 获取A记录异常： jmd0098c8.10.b2011.info  list index out of range
+
+2017-10-29 18:55:36,719 - mylogger - INFO - 获取A记录异常： jmd0098c8.10.b2011.info  list index out of range
+
+2017-10-29 18:55:36,720 - mylogger - INFO - 获取A记录异常： jmd0098c8.10.b2011.info  list index out of range
+
+2017-10-29 18:56:17,610 - mylogger - INFO - 获取A记录异常： 634888.me.2016044.com  list index out of range
+
+2017-10-29 18:56:17,610 - mylogger - INFO - 获取A记录异常： 634888.me.2016044.com  list index out of range
+
+2017-10-29 18:56:17,611 - mylogger - INFO - 获取A记录异常： 634888.me.2016044.com  list index out of range
+
+2017-10-29 18:56:52,608 - mylogger - INFO - 获取A记录异常： www.760666.com  Timeout
+
+2017-10-29 18:57:02,626 - mylogger - INFO - 获取A记录异常： www.760666.com  [Errno -2] Name or service not known
+
+2017-10-29 18:57:12,639 - mylogger - INFO - 获取A记录异常： www.760666.com  [Errno -2] Name or service not known
+
+2017-10-29 18:57:47,026 - mylogger - INFO - 获取A记录异常： bbbbaaaa.com  Timeout
+
+2017-10-30 09:17:25,876 - mylogger - INFO - 获取A记录异常： www.628899.com  list index out of range
+
+2017-10-30 09:17:25,912 - mylogger - INFO - 获取A记录异常： www.628899.com  list index out of range
+
+2017-10-30 09:17:25,912 - mylogger - INFO - 获取A记录异常： www.628899.com  list index out of range
+
+2017-10-30 09:18:06,074 - mylogger - INFO - 获取A记录异常： www.628899.com  list index out of range
+
+2017-10-30 09:18:06,075 - mylogger - INFO - 获取A记录异常： www.628899.com  list index out of range
+
+2017-10-30 09:18:06,076 - mylogger - INFO - 获取A记录异常： www.628899.com  list index out of range
+
+2017-10-30 09:18:51,453 - mylogger - INFO - 获取A记录异常： www.120male.com  list index out of range
+
+2017-10-30 09:18:51,453 - mylogger - INFO - 获取A记录异常： www.120male.com  list index out of range
+
+2017-10-30 09:18:51,454 - mylogger - INFO - 获取A记录异常： www.120male.com  list index out of range
+
+2017-10-30 10:33:42,354 - mylogger - INFO - 获取A记录异常： www.168168cc.com  Timeout
+
+2017-10-30 10:33:42,425 - mylogger - INFO - 获取A记录异常： www.168168cc.com  [Errno -2] Name or service not known
+
+2017-10-30 10:33:42,430 - mylogger - INFO - 获取A记录异常： www.168168cc.com  [Errno -2] Name or service not known
+
+2017-10-30 10:33:57,721 - mylogger - INFO - 获取A记录异常： 268066.com  Timeout
+
+2017-10-30 10:34:07,782 - mylogger - INFO - 获取A记录异常： 268066.com  [Errno -2] Name or service not known
+
+2017-10-30 10:34:17,797 - mylogger - INFO - 获取A记录异常： 268066.com  [Errno -2] Name or service not known
+
+2017-10-30 10:34:28,308 - mylogger - INFO - 获取A记录异常： www.64513.com  Timeout
+
+2017-10-30 10:41:33,769 - mylogger - INFO - 获取A记录异常： www.63260.com  Timeout
+
+2017-10-30 10:41:33,773 - mylogger - INFO - 获取A记录异常： www.63260.com  [Errno 22] Invalid argument
+
+2017-10-30 10:41:33,774 - mylogger - INFO - 获取A记录异常： www.63260.com  [Errno 22] Invalid argument
+
+2017-10-30 10:42:06,162 - mylogger - INFO - 获取A记录异常： www.84230.com  list index out of range
+
+2017-10-30 10:42:06,164 - mylogger - INFO - 获取A记录异常： www.84230.com  list index out of range
+
+2017-10-30 10:42:06,165 - mylogger - INFO - 获取A记录异常： www.84230.com  list index out of range
+
+2017-10-30 10:42:27,737 - mylogger - INFO - 获取A记录异常： www.tm012.com  Timeout
+
+2017-10-30 10:42:37,771 - mylogger - INFO - 获取A记录异常： www.tm012.com  [Errno -2] Name or service not known
+
+2017-10-30 10:42:47,790 - mylogger - INFO - 获取A记录异常： www.tm012.com  [Errno -2] Name or service not known
+
+2017-10-30 10:43:07,717 - mylogger - INFO - 获取A记录异常： www.56568.cc  Timeout
+
+2017-10-30 10:43:17,755 - mylogger - INFO - 获取A记录异常： www.56568.cc  [Errno -2] Name or service not known
+
+2017-10-30 10:43:27,772 - mylogger - INFO - 获取A记录异常： www.56568.cc  [Errno -2] Name or service not known
+
+2017-10-30 10:45:26,816 - mylogger - INFO - 获取A记录异常： www.662609.com  list index out of range
+
+2017-10-30 10:45:26,820 - mylogger - INFO - 获取A记录异常： www.662609.com  list index out of range
+
+2017-10-30 10:45:26,821 - mylogger - INFO - 获取A记录异常： www.662609.com  list index out of range
+
+2017-10-30 10:46:01,357 - mylogger - INFO - 获取A记录异常： 88kjz.com.9090tu.com  list index out of range
+
+2017-10-30 10:46:01,360 - mylogger - INFO - 获取A记录异常： 88kjz.com.9090tu.com  list index out of range
+
+2017-10-30 10:46:01,361 - mylogger - INFO - 获取A记录异常： 88kjz.com.9090tu.com  list index out of range
+
+2017-10-30 10:46:13,534 - mylogger - INFO - 获取A记录异常： www.300tk.com  Timeout
+
+2017-10-30 10:46:23,574 - mylogger - INFO - 获取A记录异常： www.300tk.com  [Errno -2] Name or service not known
+
+2017-10-30 10:46:33,590 - mylogger - INFO - 获取A记录异常： www.300tk.com  [Errno -2] Name or service not known
+
+2017-10-30 10:46:50,930 - mylogger - INFO - 获取A记录异常： www.604889.com  [Errno -5] No address associated with hostname
+
+2017-10-30 10:47:00,970 - mylogger - INFO - 获取A记录异常： www.604889.com  [Errno -2] Name or service not known
+
+2017-10-30 10:47:10,984 - mylogger - INFO - 获取A记录异常： www.604889.com  [Errno -2] Name or service not known
+
+2017-10-30 10:47:24,199 - mylogger - INFO - 获取A记录异常： www.kj8858.com  Timeout
+
+2017-10-30 10:47:34,219 - mylogger - INFO - 获取A记录异常： www.kj8858.com  [Errno -2] Name or service not known
+
+2017-10-30 10:47:44,234 - mylogger - INFO - 获取A记录异常： www.kj8858.com  [Errno -2] Name or service not known
+
+2017-10-30 10:52:04,524 - mylogger - INFO - 获取A记录异常： www.tzpx2012.com  Timeout
+
+2017-10-30 10:52:04,529 - mylogger - INFO - 获取A记录异常： www.tzpx2012.com  [Errno 22] Invalid argument
+
+2017-10-30 10:52:04,530 - mylogger - INFO - 获取A记录异常： www.tzpx2012.com  [Errno 22] Invalid argument
+
+2017-10-30 10:52:32,032 - mylogger - INFO - 获取A记录异常： ddos108.rbnetddos.com  Timeout
+
+2017-10-30 10:52:42,046 - mylogger - INFO - 获取A记录异常： ddos108.rbnetddos.com  [Errno -2] Name or service not known
+
+2017-10-30 10:52:52,068 - mylogger - INFO - 获取A记录异常： ddos108.rbnetddos.com  [Errno -2] Name or service not known
+
+2017-10-30 10:53:04,199 - mylogger - INFO - 获取A记录异常： www.haoqiang1688.com  Timeout
+
+2017-10-30 10:53:14,240 - mylogger - INFO - 获取A记录异常： www.haoqiang1688.com  [Errno -2] Name or service not known
+
+2017-10-30 10:53:24,254 - mylogger - INFO - 获取A记录异常： www.haoqiang1688.com  [Errno -2] Name or service not known
+
+2017-10-30 11:01:07,557 - mylogger - INFO - 获取A记录异常： ddos108.rbnetddos.com  Timeout
+
+2017-10-30 11:01:17,573 - mylogger - INFO - 获取A记录异常： ddos108.rbnetddos.com  [Errno -2] Name or service not known
+
+2017-10-30 11:01:27,585 - mylogger - INFO - 获取A记录异常： ddos108.rbnetddos.com  [Errno -2] Name or service not known
+
+2017-10-30 11:01:38,288 - mylogger - INFO - 获取A记录异常： 123dl.0123kjz.com  Timeout
+
+2017-10-30 11:01:38,292 - mylogger - INFO - 获取A记录异常： 123dl.0123kjz.com  [Errno -2] Name or service not known
+
+2017-10-30 11:01:38,294 - mylogger - INFO - 获取A记录异常： 123dl.0123kjz.com  [Errno -2] Name or service not known
+
+2017-10-30 11:01:48,526 - mylogger - INFO - 获取A记录异常： www.tzpx2012.com  Timeout
+
+2017-10-30 11:01:58,539 - mylogger - INFO - 获取A记录异常： www.tzpx2012.com  [Errno -2] Name or service not known
+
+2017-10-30 11:02:08,552 - mylogger - INFO - 获取A记录异常： www.tzpx2012.com  [Errno -2] Name or service not known
+
+2017-10-30 11:02:31,307 - mylogger - INFO - 获取A记录异常： www.ckicki.com  Timeout
+
+2017-10-30 11:02:31,308 - mylogger - INFO - 获取A记录异常： www.ckicki.com  [Errno 22] Invalid argument
+
+2017-10-30 11:02:31,309 - mylogger - INFO - 获取A记录异常： www.ckicki.com  [Errno 22] Invalid argument
+
+2017-10-30 11:02:42,235 - mylogger - INFO - 获取A记录异常： www.xianjuhotel.com  Timeout
+
+2017-10-30 11:04:28,261 - mylogger - INFO - 获取A记录异常： www.168168cc.com  Timeout
+
+2017-10-30 11:04:28,262 - mylogger - INFO - 获取A记录异常： www.168168cc.com  [Errno 22] Invalid argument
+
+2017-10-30 11:04:28,263 - mylogger - INFO - 获取A记录异常： www.168168cc.com  [Errno 22] Invalid argument
+
+2017-10-30 11:04:59,021 - mylogger - INFO - 获取A记录异常： www.802828.com  Timeout
+
+2017-10-30 11:04:59,022 - mylogger - INFO - 获取A记录异常： www.802828.com  [Errno 22] Invalid argument
+
+2017-10-30 11:04:59,023 - mylogger - INFO - 获取A记录异常： www.802828.com  [Errno 22] Invalid argument
+
+2017-10-30 11:06:25,513 - mylogger - INFO - 获取A记录异常： www.26131.com  list index out of range
+
+2017-10-30 11:06:25,514 - mylogger - INFO - 获取A记录异常： www.26131.com  list index out of range
+
+2017-10-30 11:06:25,515 - mylogger - INFO - 获取A记录异常： www.26131.com  list index out of range
+
+2017-10-30 11:06:38,740 - mylogger - INFO - 获取A记录异常： www.64513.com  Timeout
+
+2017-10-30 11:06:48,770 - mylogger - INFO - 获取A记录异常： www.64513.com  [Errno -2] Name or service not known
+
+2017-10-30 11:06:58,785 - mylogger - INFO - 获取A记录异常： www.64513.com  [Errno -2] Name or service not known
+
+2017-10-30 11:07:10,941 - mylogger - INFO - 获取A记录异常： www.222357.com  Timeout
+
+2017-10-30 11:07:10,947 - mylogger - INFO - 获取A记录异常： www.222357.com  [Errno -2] Name or service not known
+
+2017-10-30 11:07:10,950 - mylogger - INFO - 获取A记录异常： www.222357.com  [Errno -2] Name or service not known
+
+2017-10-30 11:07:55,477 - mylogger - INFO - 获取A记录异常： www.06982.com  list index out of range
+
+2017-10-30 11:07:55,478 - mylogger - INFO - 获取A记录异常： www.06982.com  list index out of range
+
+2017-10-30 11:07:55,479 - mylogger - INFO - 获取A记录异常： www.06982.com  list index out of range
+

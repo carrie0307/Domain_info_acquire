@@ -17,7 +17,7 @@ from log import *
 '''建立连接'''
 client = MongoClient('172.29.152.152', 27017)
 db = client.domain_icp_analysis
-collection = db.taiyuan_part_icp
+collection = db.domain_icp_info2
 
 '''同步队列'''
 domain_q = Queue.Queue()
@@ -116,27 +116,28 @@ def mongodb_save_icp():
 
 
 if __name__ == '__main__':
-    ip.run_Getter()
-    time.sleep(20) # 这个时间很关键，确切说是从运行
-    ip.ip_Verify() # ip可用性验证
-    time.sleep(90)
-    watcher = threading.Thread(target=ip.ip_watcher) # 可用ip数量监测
-    watcher.setDaemon(True)
-    watcher.start()
-    '''开始icp批量获取'''
     get_domains()
-    get_html_td = []
-    for _ in range(thread_num):
-        get_html_td.append(threading.Thread(target=get_raw_html))
-    for td in get_html_td:
-        td.start()
-    print 'get raw html ...\n'
-    time.sleep(5)
-    print 'get icp ...\n'
-    get_icp_td = threading.Thread(target=get_icp_info)
-    get_icp_td.start()
-    time.sleep(5)
-    print 'save icp ...\n'
-    save_db_td = threading.Thread(target=mongodb_save_icp)
-    save_db_td.start()
-    save_db_td.join()
+    # ip.run_Getter()
+    # time.sleep(20) # 这个时间很关键，确切说是从运行
+    # ip.ip_Verify() # ip可用性验证
+    # time.sleep(90)
+    # watcher = threading.Thread(target=ip.ip_watcher) # 可用ip数量监测
+    # watcher.setDaemon(True)
+    # watcher.start()
+    # '''开始icp批量获取'''
+    # get_domains()
+    # get_html_td = []
+    # for _ in range(thread_num):
+    #     get_html_td.append(threading.Thread(target=get_raw_html))
+    # for td in get_html_td:
+    #     td.start()
+    # print 'get raw html ...\n'
+    # time.sleep(5)
+    # print 'get icp ...\n'
+    # get_icp_td = threading.Thread(target=get_icp_info)
+    # get_icp_td.start()
+    # time.sleep(5)
+    # print 'save icp ...\n'
+    # save_db_td = threading.Thread(target=mongodb_save_icp)
+    # save_db_td.start()
+    # save_db_td.join()
