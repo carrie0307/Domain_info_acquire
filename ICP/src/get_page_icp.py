@@ -105,7 +105,7 @@ def get_page_icp():
             if pattern1 != []:
                 icp = pattern1[0]
             else:
-                pattern2 = re.compile(u'([\u4e00-\u9fa5]{0,1}ICP[\u8bc1].*[\d]{6,8})').findall(html)
+                pattern2 = re.compile(u'([\u4e00-\u9fa5]{0,1}ICP[\u8bc1].*[\d]{6,8}[\u53f7])').findall(html)
                 if pattern2 != []:
                     icp = pattern2[0]
                 # 增值业务营业号
@@ -138,21 +138,46 @@ def mongodb_save_icp():
             print domain + "存储异常\n"
 
 
+def single_test():
+    resp = urllib2.urlopen('http://' + '177dapai.com')
+    html = pre_deal_html(resp)
+    pattern1 = re.compile(u'([\u4e00-\u9fa5]{0,1}ICP[\u5907][\d]{6,8}[\u53f7]*-*[\d]*)').findall(html)
+    if pattern1 != []:
+    	print '================'
+        icp = pattern1[0]
+    else:
+        pattern2 = re.compile(u'([\u4e00-\u9fa5]{0,1}ICP[\u8bc1].*[\d]{6,8}[\u53f7])').findall(html)
+        print '-------------'
+        if pattern2 != []:
+            icp = pattern2[0]
+        # 增值业务营业号
+        else:
+            pattern3 = re.compile(u'([\u4e00-\u9fa5]{0,1}[A-B][1-2]-[\d]{6,8}-*[\d]*)').findall(html)
+            print '333333333333333333'
+            if pattern3 != []:
+                icp = pattern3[0]
+            else:
+                icp = '--'
+    print icp
+
 
 if __name__ == '__main__':
-    get_domains()
-    get_html_td = []
-    for _ in range(thread_num):
-        get_html_td.append(threading.Thread(target=download_htmlpage))
-    for td in get_html_td:
-        td.start()
-    print 'get raw html ...\n'
-    time.sleep(5)
-    print 'get icp ...\n'
-    get_icp_td = threading.Thread(target=get_page_icp)
-    get_icp_td.start()
-    time.sleep(5)
-    print 'save icp ...\n'
-    save_db_td = threading.Thread(target=mongodb_save_icp)
-    save_db_td.start()
-    save_db_td.join()
+    single_test()
+    
+
+    # get_domains()
+    # get_html_td = []
+    # for _ in range(thread_num):
+    #     get_html_td.append(threading.Thread(target=download_htmlpage))
+    # for td in get_html_td:
+    #     td.start()
+    # print 'get raw html ...\n'
+    # time.sleep(5)
+    # print 'get icp ...\n'
+    # get_icp_td = threading.Thread(target=get_page_icp)
+    # get_icp_td.start()
+    # time.sleep(5)
+    # print 'save icp ...\n'
+    # save_db_td = threading.Thread(target=mongodb_save_icp)
+    # save_db_td.start()
+    # save_db_td.join()
